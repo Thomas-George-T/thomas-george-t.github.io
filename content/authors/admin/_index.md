@@ -1,7 +1,7 @@
 ---
 # Display name
-name: Thomas George Thomas
-avatar_image: "user-full.png"
+name: Professional Summary
+avatar_image: "Profile_Picture_2.jpg"
 # Username (this should match the folder name)
 authors:
 - admin
@@ -14,15 +14,15 @@ btn:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+#role: Big Data Engineer
 
 # Organizations/Affiliations
-organizations:
-- name: Stanford University
-  url: ""
+#organizations:
+#- name: Stanford University
+#  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+#bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Should the user's education and interests be displayed?
 display_education: true
@@ -80,8 +80,15 @@ social:
 #- Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Big Data Engineer with 4.5+ years of experience in Design, Architecture, Development, and Deployment of **Hadoop, Spark & Big Data Technologies** with work experience in the **Middle East and India**.
+Good experience with **Agile DevOps** lifecycle tools to build and maintain code quality, Continuous integration, and Continuous deployment (**CI/CD**) pipelines.
+Having exposure to **NoSQL** databases like Splice Machine, HBase, and DynamoDB.
+Having Operational knowledge of **IBM Cloud and AWS.**
+Holds domain knowledge about **Healthcare and Pharmaceuticals.**
+Having exposure to Operational Analytics and Reports.
+Possess strong debugging, Critical thinking skills, and problem-solving abilities.
+**IBM Certified Data Science Professional**
 
-![reviews](../../img/certifacates.jpg)
+<!-- ![reviews](../../img/certifacates.jpg) -->
 
 <!-- It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. The point of using Lorem Ipsum. distracted by the readable content of a page. -->

@@ -18,7 +18,7 @@
 <!-- About widget -->
 <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person"
   itemref="{{ if site.Params.email }}person-email{{ end }}{{ if site.Params.phone }} person-telephone{{ end }}{{ if site.Params.address}} person-address{{ end }}">
-  <div class="col-lg-5">
+ <!-- <div class="col-lg-5">
     <div id="profile">
       {{ if site.Params.gravatar }}
       <img class="portrait img-fluid" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=200')"
@@ -50,12 +50,12 @@
       </li>
       {{ end }}
     </ul>
-  </div>
-  <div class="col-lg-7" itemprop="description">
+  </div> -->
+  <div class="col-lg-12" itemprop="description">
 
-    <div class="portrait-title">
+   <div class="portrait-title">
       <h2 itemprop="name">{{ $person.name }}</h2>
-      {{ with $person.role }}<h3 class="d-inline-block" itemprop="jobTitle">{{ . | markdownify | emojify }},</h3>{{ end }}
+      {{ with $person.role }}<h3 class="d-inline-block" itemprop="jobTitle">{{ . | markdownify | emojify }}</h3>{{ end }}
 
       {{ range $person.organizations }}
       <h3 class="d-inline-block" itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
@@ -68,14 +68,11 @@
 
     <link itemprop="url" href="{{ .Permalink }}">
 
-
-
     {{ $person_page.Content }}
 
     {{ range $person.btn }}
     <a href="{{ .url }}" class="btn btn-primary btn-lg"><i class="fas fa-download mr-2" aria-hidden="true"></i>{{ .label }}</a>
     {{ end }}
-
 
     {{ if $person.display_education }}
     <div class="row">
@@ -110,5 +107,5 @@
 
     </div>
     {{ end }}
-  </div>
+  
 </div>

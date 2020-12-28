@@ -169,6 +169,8 @@
 - id: pub_patent
   translation: Patent
 
+- id: pub_medium
+  translation: Medium Article
 # Project details
 
 - id: open_project_site

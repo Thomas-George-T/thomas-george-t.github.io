@@ -15,13 +15,13 @@ day_night = true
 font = "classic"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "Portfolio of Thomas George Thomas"
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
-sharing_image = ""
+sharing_image = "Profile_Picture.jpg"
 
 # Twitter username (without @). Used when a vistor shares your site on Twitter.
-twitter = ""
+twitter = "Thomas_George_T"
 
 # Diplay a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
@@ -67,11 +67,10 @@ email = "thomasgeorgethomases@gmail.com"
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
-  {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
-  {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
-  {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
-  # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
+  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Thomas_George_T"},
+  {icon = "linkedin", icon_pack = "fab", name = "Connect with Me on Linkedin", link = "https://www.linkedin.com/in/thomasgeorgethomas/"},
+  {icon = "github", icon_pack = "fab", name = "Discuss on Forum", link = "https://github.com/Thomas-George-T"},
+  {icon = "medium", icon_pack = "fab", name = "Follow me on Medium", link = "https://medium.com/@thomas_george_thomas"}
   ]
 
 # Display a map.
@@ -116,7 +115,7 @@ gravatar = false
 menu_align_right = true
 
 # Show estimated reading time for posts? (true/false)
-reading_time = true
+reading_time = false
 
 # Display comment count (if commenting enabled in config.toml)? (true/false)
 comment_count = true

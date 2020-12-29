@@ -15,33 +15,69 @@ subtitle = "MY MAJOR TECHNICAL SKILLS"
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-  icon = "chart-line"
-  icon_pack = "fas"
-  name = "Analysis"
-  parcent = "90%"
+  icon = "apache"
+  icon_pack = "icon"
+  name = "Hadoop"
+  #parcent = "90%"
   
 [[feature]]
-  icon = "user-secret"
-  icon_pack = "fas"
-  name = "Leadership"
-  parcent = "80%"  
+  icon = "apachespark"
+  icon_pack = "icon"
+  name = "Spark"
+  #parcent = "80%"  
   
 [[feature]]
-  icon = "camera-retro"
-  icon_pack = "fas"
-  name = "Photography"
-  parcent = "70%"
+  icon = "scala"
+  icon_pack = "icon"
+  name = "Scala"
+  #parcent = "70%"
   
 [[feature]]
-  icon = "searchengin"
-  icon_pack = "fab"
-  name = "Research"
-  parcent = "95%"
+  icon = "python"
+  icon_pack = "icon"
+  name = "Python"
+  #parcent = "95%"
  
 [[feature]]
   icon = "amazonaws"
   icon_pack = "icon"
   name = "AWS"
+  #parcent = "95%"
+  
+[[feature]]
+  icon = "linux"
+  icon_pack = "icon"
+  name = "Linux"
+  #parcent = "95%"
+
+[[feature]]
+  icon = "database"
+  icon_pack = "icon"
+  name = "SQL"
+  #parcent = "95%"
+
+[[feature]]
+  icon = "apachekafka"
+  icon_pack = "icon"
+  name = "Kafka"
+  #parcent = "95%"
+  
+[[feature]]
+  icon = "git"
+  icon_pack = "icon"
+  name = "Git"
+  #parcent = "95%"
+
+[[feature]]
+  icon = "bitbucket"
+  icon_pack = "icon"
+  name = "Bitbucket"
+  #parcent = "95%"  
+
+[[feature]]
+  icon = "bamboo"
+  icon_pack = "icon"
+  name = "Bamboo"
   #parcent = "95%"
 
 +++

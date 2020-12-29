@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
 title = "Skills"
-subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
+subtitle = "MY MAJOR TECHNICAL SKILLS"
 
 # Showcase personal skills or business features.
 # 
@@ -37,5 +37,11 @@ subtitle = "I AM REALLY GOOD AT THE FOLLOWING TECHNICAL SKILLS"
   icon_pack = "fab"
   name = "Research"
   parcent = "95%"
+ 
+[[feature]]
+  icon = "amazonaws"
+  icon_pack = "icon"
+  name = "AWS"
+  #parcent = "95%"
 
 +++

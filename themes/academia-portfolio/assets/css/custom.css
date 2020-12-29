@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'aws';
+  src:  url('../fonts/aws.eot?ea0w5m');
+  src:  url('../fonts/aws.eot?ea0w5m#iefix') format('embedded-opentype'),
+    url('../fonts/aws.ttf?ea0w5m') format('truetype'),
+    url('../fonts/aws.woff?ea0w5m') format('woff'),
+    url('../fonts/aws.svg?ea0w5m#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'aws' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-amazonaws:before {
+  content: "\e900";
+}

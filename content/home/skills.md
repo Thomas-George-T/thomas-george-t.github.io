@@ -68,10 +68,10 @@ subtitle = "MY MAJOR TECHNICAL SKILLS"
   name = "Git"
   #parcent = "95%"
 
-[[feature]]
-  icon = "bitbucket"
-  icon_pack = "icon"
-  name = "Bitbucket"
+#[[feature]]
+#  icon = "bitbucket"
+#  icon_pack = "icon"
+#  name = "Bitbucket"
   #parcent = "95%"  
 
 [[feature]]

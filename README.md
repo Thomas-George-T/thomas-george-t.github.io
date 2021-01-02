@@ -21,3 +21,4 @@ Welcome to my Portfolio web page created using Hugo Academia Theme. Link to my w
 - [Page Builder documentation](https://wowchemy.com/docs/page-builder/)
 - [Hugo Academia Theme](https://themes.gohugo.io/academia-hugo/)
 - [GitHub Hugo Actions](https://github.com/peaceiris/actions-hugo)
+- [Install Google Analytics on Hugo](https://austinrepp.com/googleanalyticshugo/)

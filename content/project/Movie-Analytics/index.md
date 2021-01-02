@@ -2,7 +2,7 @@
 title: Movie Analytics in Spark and Scala
 summary: Data cleaning, pre-processing, and Analytics on a million movies using Spark and Scala.
 tags:
-- Big Data
+- Big Data Analytics
 - Spark
 - Scala
 date: "2018-05-20T00:00:00Z"

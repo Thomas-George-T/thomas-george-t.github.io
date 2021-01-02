@@ -25,7 +25,7 @@ summary: Six definite ways to improve efficiency and reduce load times
 
 tags:
 - Sqoop
-- Big Data
+- Big Data Analytics
 featured: false
 
 links:

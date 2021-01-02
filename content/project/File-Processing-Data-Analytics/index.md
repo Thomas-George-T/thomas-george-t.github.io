@@ -2,7 +2,7 @@
 title: File Processing Data Analytics
 summary: Determining which languages and execution engines are the quickest or the slowest at processing files
 tags:
-- Big Data
+- Big Data Analytics
 date: "2020-04-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

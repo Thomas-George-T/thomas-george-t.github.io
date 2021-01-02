@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
 title = "Projects"
-#subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY"
+#subtitle = "SOME OF MY WORK"
 
 [content]
   # Page type to display. E.g. project.
@@ -26,8 +26,8 @@ title = "Projects"
     tag = "*"
   
   [[content.filter_button]]
-    name = "Big Data"
-    tag = "Big Data"
+    name = "Big Data Analytics"
+    tag = "Big Data Analytics"
     
   [[content.filter_button]]
     name = "Data Science"
@@ -39,7 +39,7 @@ title = "Projects"
 	
   [[content.filter_button]]
     name = "Other"
-    tag = "Elasticsearch"
+    tag = "Elasticsearch, Twitter"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.

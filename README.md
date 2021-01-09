@@ -14,7 +14,7 @@
 <br>
 
 # Portfolio
-Welcome to my Portfolio web page created using Hugo Academia Theme. Link to my website: https://thomas-george-t.github.io
+Welcome to my Portfolio web page created using Hugo Academia Theme. Link to my website: [thomasgeorgethomas.ml](https://thomasgeorgethomas.ml)
 
 # Useful References
 - [Adding custom icons to Skills.md](https://www.rollagain.net/post/adding-custom-icons-to-the-hugo-academic-theme/)

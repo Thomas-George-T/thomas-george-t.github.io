@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
 title = "Skills"
-subtitle = "MY MAJOR TECHNICAL SKILLS"
+subtitle = "MY MAJOR EXPERTISE"
 
 # Showcase personal skills or business features.
 # 

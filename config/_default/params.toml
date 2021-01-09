@@ -69,7 +69,7 @@ email = "thomasgeorgethomases@gmail.com"
 contact_links = [
   {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Thomas_George_T"},
   {icon = "linkedin", icon_pack = "fab", name = "Connect with Me on Linkedin", link = "https://www.linkedin.com/in/thomasgeorgethomas/"},
-  {icon = "github", icon_pack = "fab", name = "Discuss on Forum", link = "https://github.com/Thomas-George-T"},
+  {icon = "github", icon_pack = "fab", name = "Star me on GitHub", link = "https://github.com/Thomas-George-T"},
   {icon = "medium", icon_pack = "fab", name = "Follow me on Medium", link = "https://medium.com/@thomas_george_thomas"}
   ]
 

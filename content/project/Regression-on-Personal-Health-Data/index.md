@@ -1,6 +1,6 @@
 ---
 title: Regression on Personal Health Data
-summary: Predicting the cost of treatment and insurance using regression by leveraging personal health data.
+summary: Predicting the cost of treatment and insurance using Machine Learning.
 tags:
 - Regression
 - Machine Learning

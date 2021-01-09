@@ -23,7 +23,7 @@ Welcome to my Portfolio/Personal website created using **Hugo Academia Theme**.
 ## Hugo Theme Page Docs
 - [Hugo Academia Theme](https://themes.gohugo.io/academia-hugo/)
 - [Page Builder documentation](https://wowchemy.com/docs/page-builder/)
-- [Adding custom icons to Skills.md](https://www.rollagain.net/post/adding-custom-icons-to-the-hugo-academic-theme/)
+- [Adding custom icons to Skills](https://www.rollagain.net/post/adding-custom-icons-to-the-hugo-academic-theme/)
 
 ## Deploying using GitHub Actions
 - [Setting up GitHub Hugo Actions](https://github.com/peaceiris/actions-hugo)
@@ -37,5 +37,4 @@ Welcome to my Portfolio/Personal website created using **Hugo Academia Theme**.
 - [Hugo GitHub deployments](https://wowchemy.com/docs/domain/)
 - [Tutorial Article on Custom Domain for GitHub Pages](https://medium.com/@hossainkhan/using-custom-domain-for-github-pages-86b303d3918a#:~:text=Go%20to%20your%20GitHub%20Pages,CNAME%20in%20the%20same%20repository.)
 - [GitHub Docs: Managing a custom domain for your GitHub Pages site](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain)
-- [GitHub Docs: About custom domains and GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/about-custom-domains-and-github-pages)
 - [GitHub Docs: About custom domains and GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/about-custom-domains-and-github-pages)

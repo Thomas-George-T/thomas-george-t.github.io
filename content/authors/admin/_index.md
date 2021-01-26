@@ -1,6 +1,6 @@
 ---
 # Display name
-name: About Me
+name: Thomas George Thomas
 #avatar_image: []
 # Username (this should match the folder name)
 authors:
@@ -22,7 +22,7 @@ superuser: true
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-#bio: My interests include Big Data, Data Science, Cloud Computing, Machine Learning,AI and DevOps
+bio: Data Scientist & Engineer with interests in Big Data, Data Science, Cloud Computing, Machine Learning, AI and DevOps.
 
 # Should the user's education and interests be displayed?
 display_education: true

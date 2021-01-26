@@ -22,7 +22,7 @@ superuser: true
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Data Scientist & Engineer with interests in Big Data, Data Science, Cloud Computing, Machine Learning, AI and DevOps.
+bio: Data Scientist & Big Data Engineer with interests in Big Data, Data Science, Cloud Computing, Machine Learning, AI and DevOps.
 
 # Should the user's education and interests be displayed?
 display_education: true

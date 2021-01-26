@@ -29,7 +29,7 @@ tags:
 featured: false
 
 links:
-- name: "View Article"
+- name: "Article"
   url: "https://medium.com/swlh/performance-tuning-apache-sqoop-512242a58df5"
 # url_pdf: http://arxiv.org/pdf/1512.04133v1
 # url_code: ''

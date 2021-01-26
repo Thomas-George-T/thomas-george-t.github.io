@@ -30,7 +30,7 @@ tags:
 featured: false
 
 links:
-- name: "View Article"
+- name: "Article"
   url: "https://medium.com/analytics-vidhya/a-tale-of-two-cities-clustering-neighborhoods-of-london-and-paris-5328f69cd8b6"
 # url_pdf: http://arxiv.org/pdf/1512.04133v1
 # url_code: ''

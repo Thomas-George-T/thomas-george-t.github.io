@@ -18,7 +18,7 @@ publication_types: ["9"]
 publication: "*Analytics Vidhya*"
 publication_short: ""
 
-abstract: Clustering Neighborhoods of London and Paris using Machine Learning 
+abstract: Clustering Neighborhoods of London and Paris using Machine Learning. The algorithm used is K-means. This is the capstone project of the IBM Data Science Professional Certificate.
 
 # Summary. An optional shortened abstract.
 summary: Clustering Neighborhoods of London and Paris using Machine Learning

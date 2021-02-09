@@ -170,7 +170,7 @@
   translation: Patent
 
 - id: pub_medium
-  translation: Medium Article
+  translation: Medium
 # Project details
 
 - id: open_project_site

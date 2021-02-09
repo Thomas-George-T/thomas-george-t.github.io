@@ -18,10 +18,10 @@ publication_types: ["9"]
 publication: "*The Startup*"
 publication_short: ""
 
-abstract: Six definite ways to improve efficiency and reduce load times 
+abstract: Apache Sqoop is a popular tool used in Big Data Analytics to transfer data between relational database systems and the Hadoop ecosystem. This article explains in length the six ways to improve efficiency and reduce load times to achieve maximum performance.
 
 # Summary. An optional shortened abstract.
-summary: Six definite ways to improve efficiency and reduce load times 
+summary: Six definite ways to improve efficiency and reduce load times.
 
 tags:
 - Sqoop

@@ -1,8 +1,8 @@
 ---
-title: "Performance Tuning Apache Sqoop"
+title: "File Processing: A Comparative Study"
 authors:
 - Thomas George Thomas
-date: "2020-09-06T00:00:00Z"
+date: "2021-02-06T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -15,22 +15,25 @@ doi: ""
 publication_types: ["9"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*The Startup*"
+publication: "*Code Story*"
 publication_short: ""
 
-abstract: Apache Sqoop is a popular tool used in Big Data Analytics to transfer data between relational database systems and the Hadoop ecosystem. This article explains in length the six ways to improve efficiency and reduce load times to achieve maximum performance.
+abstract: Finding out which popular programming languages like Python, Scala and Java and execution engines like Hadoop and Spark are the quickest or the slowest while file processing. This gives us an idea about which languages or execution engines perform the best and are efficient.
 
 # Summary. An optional shortened abstract.
-summary: Six definite ways to improve efficiency and reduce load times.
+summary: Comparing and Benchmarking popular programming languages and execution engines
 
 tags:
-- Sqoop
 - Big Data Analytics
-featured: true
+- Python
+- Hadoop
+- Spark
+- Data Science
+featured: false
 
 links:
 - name: "Article"
-  url: "https://medium.com/swlh/performance-tuning-apache-sqoop-512242a58df5"
+  url: "https://medium.com/codestory/file-processing-a-comparative-analytics-study-e21b4693b70c"
 # url_pdf: http://arxiv.org/pdf/1512.04133v1
 # url_code: ''
 # url_dataset: ''
@@ -44,7 +47,7 @@ links:
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 image:
-  caption: 'Image credit: [**Jia Ye on Unsplash**](https://images.unsplash.com/photo-1534637950656-9e6753b6da6b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1534&q=80)'
+  caption: 'Image credit: [**Photo by PAUL SMITH on Unsplash**](https://miro.medium.com/max/700/0*JAlaohX-4tbRGmg8)'
   focal_point: ""
   preview_only: false
 
@@ -53,7 +56,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: []
+projects: [File-Processing-Comparative-Analytics]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

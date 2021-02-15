@@ -39,5 +39,7 @@ Welcome to my Portfolio/Personal website created using **Hugo Academia Theme**.
 - [GitHub Docs: Managing a custom domain for your GitHub Pages site](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain)
 - [GitHub Docs: About custom domains and GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/about-custom-domains-and-github-pages)
 
-## Card Validator
-- [Validate Meta tags & Social Sharing image](https://cards-dev.twitter.com/validator)
+## Social Media Card Validators
+
+- [Twitter: Validate Meta tags & Social Sharing image](https://cards-dev.twitter.com/validator)
+- [Linkedin: Post Inspector](https://www.linkedin.com/post-inspector/)

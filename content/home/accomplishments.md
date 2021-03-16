@@ -19,6 +19,17 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "Legato"
+  organization_url = ""
+  title = "IMPACT Award"
+  url = ""
+  certificate_url = "https://www.linkedin.com/posts/thomasgeorgethomas_impact-legato-happy-activity-6777437854479077376-whfX"
+  date_start = "2021-02-01"
+  date_end = ""
+  description = "Awarded for going above and beyond in 2020"
+
+
+[[item]]
   organization = "IBM"
   organization_url = "https://www.coursera.org"
   title = "IBM Data Science Professional"
@@ -26,14 +37,14 @@ date_format = "Jan 2006"
   certificate_url = "https://www.youracclaim.com/earner/earned/badge/ba99a0c0-a0a0-4138-92be-4aa3fcad02b3"
   date_start = "2020-08-19"
   date_end = ""
-  description = "Earned after completing the Data Science professional Path"
+  description = "Earned for completing IBM Data Science Certification"
 
 [[item]]
   organization = "Legato"
   organization_url = ""
   title = "Iron Man of Technology 2"
   url = ""
-  certificate_url = ""
+  certificate_url = "https://www.linkedin.com/posts/thomasgeorgethomas_happy-appreciated-lifeatlegato-activity-6629390693422989312-tm4D"
   date_start = "2020-01-03"
   date_end = ""
   description = "Awarded for being a standout performer for Q4 of 2019."
@@ -56,6 +67,6 @@ date_format = "Jan 2006"
   certificate_url = "https://github.com/Thomas-George-T"
   date_start = "2020-02-01"
   date_end = ""
-  description = "Awarded for Open source contributions towards the GitHub Archive program."
+  description = "Awarded for OSS contributions towards the GitHub Archive program."
 
 +++

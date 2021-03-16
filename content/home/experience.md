@@ -29,10 +29,11 @@ date_format = "Jan 2006"
   
 * Engaged primarily in developing Spark Scala code involving RDD’s, dataframes, and SparkSQL.
 * Developed shell scripts to process 1.5 TB CSV, Parquet data from inbound to the outbound layer for generating Tableau reports.
-* Developed CI/CD pipelines using Bamboo to build & deploy scripts and ETL jars into pre-prod and prod environments to reduce manual effort.
+* Developed fully automated CI/CD pipelines using Bamboo to migrate Unix items and ETL jars into pre-prod and prod environments removing any manual effort.
 
-Innovations :
+Innovations:
 
+* Automated validation reports post-migration bringing down costs by 90%.
 * Improved runtime from 18 hours to 9.5 hours by refactoring Spark Scala ETL code.
 * Refactored tables to use parquet formats, snappy compressions, and include dynamic partitions. 
 * Improved efficiency and turnaround time from 6 hours to 1.5 hours by automating data quality and validity checks between Hive and SQL server loads.
@@ -52,9 +53,8 @@ Highlights :
 * Implemented SQOOP for massive dataset transfer between the Hadoop file system and RDBMS.
 * Involved in the design and creation of partitioned table DDLs in Hive.
 * Worked on performance tuning, analysis, and response time reduction techniques in SQL and Sqoop.
-* Worked with different file formats such as JSON, CSV, Parquet, ORC, and snappy compressed files.
+* Worked with different file formats such as CSV, Parquet, and snappy compressed files.
 * Processed delimited data using Spark SQL to build pipelines from landing zone to outbound layer.
-* Created market trend reports analyzed from aggregated Flume data improving sales by 9% annually.
   """
 
 [[experience]]

@@ -15,7 +15,7 @@ doi: ""
 publication_types: ["9"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Code Story*"
+publication: "*Geek Culture*"
 publication_short: ""
 
 abstract: Finding out which popular programming languages like Python, Scala and Java and execution engines like Hadoop and Spark are the quickest or the slowest while file processing. This gives us an idea about which languages or execution engines perform the best and are efficient.

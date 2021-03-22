@@ -1,5 +1,5 @@
 ---
-title: "Predicting Patient treatment costs using Machine Learning."
+title: "Predicting Patient treatment costs using Machine Learning"
 authors:
 - Thomas George Thomas
 date: "2021-03-02T00:00:00Z"

@@ -18,6 +18,14 @@
 
 Welcome to my Portfolio/Personal website created using **Hugo Academia Theme**.
 
+## Environment
+- Hugo-extended 
+- Domain Name (Custom or GitHub)
+
+## Commands
+- `Hugo Server` will render your website locally and changes are reflected dynamically.
+- `hugo --minify` minifies any HTML, CSS, JS, JSON, SVG or XML resource final output into /public
+
 # Useful References
 
 ## Hugo Theme Page Docs

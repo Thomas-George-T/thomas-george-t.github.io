@@ -30,19 +30,18 @@ display_education: true
 interests:
 - Big Data
 - Data Science
-- Artificial Intelligence
 - Cloud Computing
-- CI/CD
-- DevOps
+- DevOps & CI/CD
+- Artificial Intelligence
 
 education:
   courses:
 #  - course: PhD in Artificial Intelligence
 #    institution: Stanford University
 #    year: 2012
-#  - course: MEng in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2009
+  - course: M.S. Data Analytics Engineering
+    institution: Northeastern University
+    year: Present
   - course: B.Tech in Computer Science and Engineering
     institution: Manipal Institute of Technology
     year: 2016
@@ -83,4 +82,4 @@ education:
 #- Visitors
 ---
 
-I am a Data Engineer with 5+ years of experience in Design, Architecture, Development, and Deployment of **Hadoop, Spark, AWS & related Big Data Technologies** with work experience in the **Middle East** and **India** in the **Healthcare** and **Pharmaceuticals** domains.
+I am a Data Engineer with **5+ years** of experience in Design, Architecture, Development, and Deployment of **Hadoop, Spark, AWS &  Big Data Technologies** with work experience in the **Middle East** and **India** in the **Healthcare** and **Pharmaceuticals** domains.

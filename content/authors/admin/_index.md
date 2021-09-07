@@ -41,7 +41,7 @@ education:
 #    year: 2012
   - course: M.S. Data Analytics Engineering
     institution: Northeastern University
-    year: Present
+    year: 2021 - 2023
   - course: B.Tech in Computer Science and Engineering
     institution: Manipal Institute of Technology
     year: 2016

@@ -21,12 +21,12 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Legato"
   organization_url = ""
-  title = "Anthem Go Above IMPACT Award 2020"
+  title = "Anthem Go Above IMPACT Award 2021"
   url = ""
   certificate_url = "https://www.linkedin.com/posts/thomasgeorgethomas_impact-legato-happy-activity-6777437854479077376-whfX"
   date_start = "2021-02-01"
   date_end = ""
-  description = "Awarded for going above and beyond in 2020"
+  description = "Awarded for going above and beyond in 2021"
 
 
 [[item]]

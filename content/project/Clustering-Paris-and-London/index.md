@@ -1,5 +1,5 @@
 ---
-title: A Tale of Two Cities
+title: Clustering Paris and London
 summary: Clustering Neighborhoods of Paris and London using Machine learning.
 tags:
 - Machine Learning

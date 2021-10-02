@@ -1,5 +1,5 @@
 ---
-title: Regression on Personal Health Data
+title: Treatment Cost Prediction
 summary: Predicting the cost of treatment and insurance using Machine Learning.
 tags:
 - Regression

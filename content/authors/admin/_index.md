@@ -28,11 +28,11 @@ bio: Data Scientist & Big Data Engineer with interests in Big Data, Data Science
 display_education: true
 
 interests:
-- Big Data
+- Big Data Analytics
 - Data Science
 - Cloud Computing
 - DevOps & CI/CD
-- Artificial Intelligence
+- Data Engineering
 
 education:
   courses:
@@ -41,7 +41,7 @@ education:
 #    year: 2012
   - course: M.S. Data Analytics Engineering
     institution: Northeastern University
-    year: 2021 - 2023
+    year: 2023
   - course: B.Tech in Computer Science and Engineering
     institution: Manipal Institute of Technology
     year: 2016

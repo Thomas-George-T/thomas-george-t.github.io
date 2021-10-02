@@ -1,5 +1,5 @@
 ---
-title: Retro Reel Recommender
+title: Retro Movies Recommender
 summary: A Content-based recommendation engine API for movies of the 1900’s built using NLP, Flask, Heroku and Python.
 tags:
 - Data Science

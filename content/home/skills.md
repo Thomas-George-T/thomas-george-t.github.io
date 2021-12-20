@@ -18,13 +18,25 @@ subtitle = "MY MAJOR EXPERTISE"
   icon = "apache"
   icon_pack = "icon"
   name = "Hadoop"
-  #parcent = "90%"
+  #\parcent = "90%"
   
 [[feature]]
   icon = "apachespark"
   icon_pack = "icon"
   name = "Spark"
   #parcent = "80%"  
+
+[[feature]]
+  icon = "amazonaws"
+  icon_pack = "icon"
+  name = "AWS"
+  #parcent = "95%"  
+
+[[feature]]
+  icon = "r"
+  icon_pack = "icon"
+  name = "R"
+  #parcent = "95%" 
   
 [[feature]]
   icon = "scala"
@@ -37,47 +49,53 @@ subtitle = "MY MAJOR EXPERTISE"
   icon_pack = "icon"
   name = "Python"
   #parcent = "95%"
- 
-[[feature]]
-  icon = "amazonaws"
-  icon_pack = "icon"
-  name = "AWS"
-  #parcent = "95%"
-  
-[[feature]]
-  icon = "linux"
-  icon_pack = "icon"
-  name = "Linux"
-  #parcent = "95%"
-
+    
 [[feature]]
   icon = "database"
   icon_pack = "icon"
   name = "SQL"
   #parcent = "95%"
-
-[[feature]]
-  icon = "apachekafka"
-  icon_pack = "icon"
-  name = "Kafka"
-  #parcent = "95%"
   
+[[feature]]
+  icon = "weather-snow"
+  icon_pack = "icon"
+  name = "Snowflake"
+  #parcent = "95%" 
+ 
+[[feature]]
+  icon = "bamboo"
+  icon_pack = "icon"
+  name = "Bamboo"
+  #parcent = "95%" 
+ 
 [[feature]]
   icon = "git"
   icon_pack = "icon"
   name = "Git"
   #parcent = "95%"
-
-#[[feature]]
-#  icon = "bitbucket"
-#  icon_pack = "icon"
-#  name = "Bitbucket"
+  
+[[feature]]
+  icon = "github"
+  icon_pack = "icon"
+  name = "GitHub"
   #parcent = "95%"  
 
 [[feature]]
-  icon = "bamboo"
+  icon = "jira"
   icon_pack = "icon"
-  name = "Bamboo"
-  #parcent = "95%"
+  name = "JIRA"
+  #parcent = "95%" 
+  
+[[feature]]
+  icon = "apachekafka"
+  icon_pack = "icon"
+  name = "Kafka"
+  #parcent = "95%"  
 
+[[feature]]
+  icon = "linux"
+  icon_pack = "icon"
+  name = "Linux"
+  #parcent = "95%"
+  
 +++

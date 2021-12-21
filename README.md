@@ -14,7 +14,7 @@
 
 <br>
 
-# Portfolio/Personal Web: [thomasgeorgethomas.ml](https://thomasgeorgethomas.ml)
+# Portfolio/Personal Web: [thomasgeorgethomas.ml](https://thomasgeorgethomas.com)
 
 Welcome to my Portfolio/Personal website created using **Hugo Academia Theme**.
 
@@ -42,7 +42,7 @@ Welcome to my Portfolio/Personal website created using **Hugo Academia Theme**.
 
 ## Using a Custom Domain Name
 
-- [Hugo GitHub deployments](https://wowchemy.com/docs/domain/)
+- [Hugo GitHub deployments](https://wowchemy.com/docs/hugo-tutorials/deployment/)
 - [Tutorial Article on Custom Domain for GitHub Pages](https://medium.com/@hossainkhan/using-custom-domain-for-github-pages-86b303d3918a#:~:text=Go%20to%20your%20GitHub%20Pages,CNAME%20in%20the%20same%20repository.)
 - [GitHub Docs: Managing a custom domain for your GitHub Pages site](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain)
 - [GitHub Docs: About custom domains and GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/about-custom-domains-and-github-pages)

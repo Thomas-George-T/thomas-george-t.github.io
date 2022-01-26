@@ -7,7 +7,7 @@ authors:
 - admin
 # resume download button
 btn:
-- url : "files/resume.pdf" 
+- url : "files/Thomas_George_Thomas-Resume.pdf" 
   label : "View Resume"
 
 # Is this the primary user of the site?
@@ -36,12 +36,9 @@ interests:
 
 education:
   courses:
-#  - course: PhD in Artificial Intelligence
-#    institution: Stanford University
-#    year: 2012
   - course: M.S. Data Analytics Engineering
     institution: Northeastern University
-    year: 2023
+    year: Expected Aug 2023
   - course: B.Tech in Computer Science and Engineering
     institution: Manipal Institute of Technology
     year: 2016

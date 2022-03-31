@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   company = "Legato Health Technologies, Anthem Inc."
   company_url = ""
   location = "Bangalore, India"
-  date_start = "2020-10-05"
+  date_start = "2018-06-04"
   date_end = "2021-08-19"
   description = """ 
   Highlights:
@@ -35,35 +35,16 @@ date_format = "Jan 2006"
 * Developed and managed enhancements, code migration, release management, production loads, and continuous integration and continuous deployment (CI/CD) pipelines for 4 projects using Bamboo, Maven, Git, and Shell scripting
 * Proficient in stakeholder interaction, requirements gathering, data analysis, design documents, performance tuning, and enhancements
 
-Technologies: Spark, Scala, Hive, Hadoop, Snowflake, Git, Bitbucket, Maven
-
-AWS: RDS, S3, EMR, Athena, Step functions 
+Technologies: Hadoop, Spark, Scala, Snowflake, AWS: RDS, S3, EMR, Athena, Hive, Impala, Unix, Shell scripting, Control M, Bamboo, Git, Bitbucket, Maven, Eclipse, Cloudera distribution
 
   """
-
-[[experience]]
-  title = "Big Data Engineer"
-  company = "Legato Health Technologies, Anthem Inc."
-  company_url = ""
-  location = "Bangalore, India"
-  date_start = "2018-06-04"
-  date_end = "2020-10-04"
-  description = """
-  Highlights :
   
-* Engaged primarily in developing Spark Scala code involving RDD’s, Dataframes and SparkSQL
-* Developed shell scripts to process 2 TB CSV, Parquet data from inbound to the outbound layer for generating Tableau reports
-* Developed CI/CD pipelines using Bamboo to build & deploy scripts and ETL jars into pre-prod and prod environments to reduce manual effort
-
-Technologies:  Spark, Scala, Hive, Impala, Hadoop, Unix, Shell scripting, Control M, Bamboo, Git, Bitbucket, Maven, Eclipse, Cloudera distribution
-  """
-
 [[experience]]
   title = "Software Engineer - Hadoop Developer & Big Data Engineer"
   company = "Middle East Management Consultancy and Marketing"
   company_url = ""
   location = "Muscat, Oman"
-  date_start = "2017-06-01"
+  date_start = "2016-06-01"
   date_end = "2018-05-31"
   description = """
 Highlights:
@@ -72,27 +53,14 @@ Highlights:
 * Developed pipelines to handle 1.5 TB of data daily from ingestion to reporting layer using Shell scripting, Hadoop & Spark
 * Performed performance tuning, analysis, and response time reduction techniques in Spark, SQL, and Sqoop
 * Redesigned the Hadoop ecosystem to handle different file formats such as CSV, Parquet, and snappy compressed files
-
-Technologies: Hadoop, Sqoop, Hive, Shell scripting, MySQL, Spark, Scala, SonarQube, Cloudera Distribution
-  """
-  
-[[experience]]
-  title = "Associate Software Engineer - Big Data & Hadoop Developer"
-  company = "Middle East Management Consultancy and Marketing"
-  company_url = ""
-  location = "Muscat, Oman"
-  date_start = "2016-06-01"
-  date_end = "2017-05-30"
-  description = """
-Highlights :
 * Implemented Sqoop for dataset transfer of 26 TB between the Hadoop and MySQL RDBMS.
 * Processed delimited data using Spark SQL to build pipeline from landing zone to outbound layer.
 * Improved sales by 9% annually by creating market trend reports analyzed from aggregated log data using Flume.
 * Involved in design and creation of partitioned table DDLs in Hive.
 
-Technologies: Hadoop, Spark, Scala, Impala, Flume, Unix, MySQL, Git, Hortonworks Distribution
-  """
+Technologies: Hadoop, Sqoop, Hive, Impala, Shell scripting, MySQL, Spark, Scala, SonarQube, Flume, Unix, Git
 
+  """
 
 [[experience]]
   title = "Practice School Student/ Researcher"

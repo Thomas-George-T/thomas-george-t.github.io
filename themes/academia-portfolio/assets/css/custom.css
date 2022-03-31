@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?d3uc9z');
-  src:  url('../fonts/icomoon.eot?d3uc9z#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?d3uc9z') format('truetype'),
-    url('../fonts/icomoon.woff?d3uc9z') format('woff'),
-    url('../fonts/icomoon.svg?d3uc9z#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?mg9ezw');
+  src:  url('../fonts/icomoon.eot?mg9ezw#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?mg9ezw') format('truetype'),
+    url('../fonts/icomoon.woff?mg9ezw') format('woff'),
+    url('../fonts/icomoon.svg?mg9ezw#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -60,6 +60,10 @@
   content: "\e908";
   color: #fcc624;
 }
+.icon-mysql:before {
+  content: "\e90d";
+  color: #4479a1;
+}
 .icon-python:before {
   content: "\e909";
   color: #3776ab;
@@ -71,6 +75,10 @@
 .icon-scala:before {
   content: "\e90b";
   color: #dc322f;
+}
+.icon-tableau:before {
+  content: "\e90e";
+  color: #e97627;
 }
 .icon-database:before {
   content: "\e964";

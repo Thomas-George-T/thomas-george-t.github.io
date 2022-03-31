@@ -31,29 +31,41 @@ subtitle = "MY MAJOR EXPERTISE"
   icon_pack = "icon"
   name = "AWS"
   #parcent = "95%"  
-
-[[feature]]
-  icon = "r"
-  icon_pack = "icon"
-  name = "R"
-  #parcent = "95%" 
-  
-[[feature]]
-  icon = "scala"
-  icon_pack = "icon"
-  name = "Scala"
-  #parcent = "70%"
   
 [[feature]]
   icon = "python"
   icon_pack = "icon"
   name = "Python"
   #parcent = "95%"
+
+[[feature]]
+  icon = "scala"
+  icon_pack = "icon"
+  name = "Scala"
+  #parcent = "70%"
+
+[[feature]]
+  icon = "r"
+  icon_pack = "icon"
+  name = "R"
+  #parcent = "95%" 
     
 [[feature]]
   icon = "database"
   icon_pack = "icon"
   name = "SQL"
+  #parcent = "95%"
+  
+[[feature]]
+  icon = "tableau"
+  icon_pack = "icon"
+  name = "Tableau"
+  #parcent = "95%"  
+
+[[feature]]
+  icon = "mysql"
+  icon_pack = "icon"
+  name = "MySQL"
   #parcent = "95%"
   
 [[feature]]

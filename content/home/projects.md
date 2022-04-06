@@ -28,6 +28,10 @@ title = "Projects"
   [[content.filter_button]]
     name = "Big Data Analytics"
     tag = "Big Data Analytics"
+	
+  [[content.filter_button]]
+    name = "Data Visualization"
+    tag = "Data Visualization"
     
   [[content.filter_button]]
     name = "Data Science"

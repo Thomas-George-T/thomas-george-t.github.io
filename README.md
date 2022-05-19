@@ -33,6 +33,7 @@ Welcome to my Portfolio/Personal website created using **Hugo Academia Theme**.
 - [Page Builder documentation](https://wowchemy.com/docs/page-builder/)
 - [Adding custom icons to Skills](https://www.rollagain.net/post/adding-custom-icons-to-the-hugo-academic-theme/)
 - [Image Portfolio from Unsplash](https://unsplash.com)
+- [Add Logos](https://simpleicons.org/?q=table)
 
 ## Deploying using GitHub Actions
 - [Setting up GitHub Hugo Actions](https://github.com/peaceiris/actions-hugo)

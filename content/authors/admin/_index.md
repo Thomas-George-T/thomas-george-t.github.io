@@ -29,10 +29,12 @@ display_education: true
 
 interests:
 - Big Data Analytics
+- Data Engineering
 - Data Science
+- Machine Learning
 - Cloud Computing
 - DevOps & CI/CD
-- Data Engineering
+
 
 education:
   courses:

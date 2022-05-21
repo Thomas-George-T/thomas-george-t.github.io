@@ -28,12 +28,12 @@ date_format = "Jan 2006"
   description = """ 
   Highlights:
 
-* Built data pipelines in AWS leveraging services S3, RDS, Athena, Step functions, and EMR.
+* Built data pipelines for 5 initiatives including providing Clinical Investigative Insights in AWS, and Hadoop
 * Migrated 112 TB of data from the on-premises Hadoop cluster to AWS and Snowflake
 * Innovated and automated post-migration validation reports in Spark Scala bringing down costs by 90% for 2 projects
-* Innovated and reduced runtime by 50% which lead to $7000 quarterly savings by refactoring Spark Scala ETL code
-* Developed and managed enhancements, code migration, release management, production loads, and continuous integration and continuous deployment (CI/CD) pipelines for 4 projects using Bamboo, Maven, Git, and Shell scripting
-* Proficient in stakeholder interaction, requirements gathering, data analysis, design documents, performance tuning, and enhancements
+* Innovated and reduced latency by 50% which lead to $7000 quarterly savings by refactoring Spark Scala ETL code
+* Implemented continuous integration and continuous deployment (CI/CD) pipelines for 4 projects using DevOps
+* Chaired release management and code migration for production/pre-production environments for 2 projects
 
 Technologies: Hadoop, Spark, Scala, Snowflake, AWS: RDS, S3, EMR, Athena, Hive, Impala, Unix, Shell scripting, Control M, Bamboo, Git, Bitbucket, Maven, Eclipse, Cloudera distribution
 
@@ -50,13 +50,10 @@ Technologies: Hadoop, Spark, Scala, Snowflake, AWS: RDS, S3, EMR, Athena, Hive, 
 Highlights:
 
 * Shipped and delivered analytics dashboard which led to an increase in pharmaceutical sales by 12% annually
-* Developed pipelines to handle 1.5 TB of data daily from ingestion to reporting layer using Shell scripting, Hadoop & Spark
-* Performed performance tuning, analysis, and response time reduction techniques in Spark, SQL, and Sqoop
-* Redesigned the Hadoop ecosystem to handle different file formats such as CSV, Parquet, and snappy compressed files
-* Implemented Sqoop for dataset transfer of 26 TB between the Hadoop and MySQL RDBMS.
-* Processed delimited data using Spark SQL to build pipeline from landing zone to outbound layer.
-* Improved sales by 9% annually by creating market trend reports analyzed from aggregated log data using Flume.
-* Involved in design and creation of partitioned table DDLs in Hive.
+* Developed pipelines to handle data of 1.5 TB/day from ingestion to reporting layer using Shell script, Hadoop & Spark
+* Implemented dataset transfer of 26 TB between Hadoop and MySQL RDBMS using Sqoop
+* Performed performance tuning in Spark, SQL, and Sqoop resulting in 60% response time reduction
+* Redesigned Data Lake to use Parquet, and Snappy compression to cut 30% storage and compute costs
 
 Technologies: Hadoop, Sqoop, Hive, Impala, Shell scripting, MySQL, Spark, Scala, SonarQube, Flume, Unix, Git
 

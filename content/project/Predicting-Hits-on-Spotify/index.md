@@ -5,7 +5,7 @@ tags:
 - Classification
 - Machine Learning
 - Data Science
-- Tableau
+- Python
 date: "2022-02-19T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

@@ -19,8 +19,23 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Data Co-op"
+  company = "Montai Health"
+  company_url = ""
+  location = "Cambridge, Massachusetts, United States"
+  date_start = "2022-07-11"
+  date_end = "2022-12-16"
+  description = """ 
+  Highlights:
+
+* Built web scraping and API fetchers to fetch data from multiple data sources.
+* Built data pipelines using AWS EMR Serverless, S3 and Athena.
+  """
+
+
+[[experience]]
   title = "Senior Data Engineer"
-  company = "Legato Health Technologies, Anthem Inc."
+  company = "Legato Health Technologies, Elevance Health"
   company_url = ""
   location = "Bangalore, India"
   date_start = "2018-06-04"

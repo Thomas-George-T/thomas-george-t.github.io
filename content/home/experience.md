@@ -19,17 +19,19 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Data Co-op"
+  title = "Data Sciences and Engineering Co-op"
   company = "Montai Health"
   company_url = ""
-  location = "Cambridge, Massachusetts, United States"
+  location = "Cambridge, Massachusetts, United States of America"
   date_start = "2022-07-11"
   date_end = "2022-12-16"
   description = """ 
   Highlights:
 
-* Built web scraping and API fetchers to fetch data from multiple data sources.
-* Built data pipelines using AWS EMR Serverless, S3 and Athena.
+* Developed scripts to ingest, process and upload 10,000 data files daily into AWS S3 using API calls and Python
+* Aggregated 1 TB of health data, modern bioinformatic databases using AWS EMR Serverless, Athena, Glue and S3
+
+Technologies : Python, API, AWS: S3, EMR, Athena, Glue,PySpark, Shell Scripting, Packages: Pandas, Requests, Git, GitHub
   """
 
 

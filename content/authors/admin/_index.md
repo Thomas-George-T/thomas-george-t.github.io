@@ -81,4 +81,4 @@ education:
 #- Visitors
 ---
 
-I am a Data Engineer with **5+ years** of experience in Design, Architecture, Development, and Deployment of **Hadoop, Spark, AWS &  Big Data Technologies** with work experience in the **Middle East** and **India** in the **Healthcare** and **Pharmaceuticals** domains.
+I am a Data Engineer with **6 years** of experience in Design, Architecture, Development, and Deployment of **Hadoop, Spark, Snowflake, AWS &  Big Data Technologies** with work experience in the **US**, **Middle East** and **India** in the **Healthcare** and **Pharmaceuticals** domains.

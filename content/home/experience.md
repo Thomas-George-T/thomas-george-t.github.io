@@ -19,7 +19,7 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Data Engineer/ Data Scientist"
+  title = "Data Engineer"
   company = "Montai Health"
   company_url = ""
   location = "Massachusetts, United States of America"
@@ -28,10 +28,9 @@ date_format = "Jan 2006"
   description = """ 
   Highlights:
 
-* Built a health, drug and bioinformatic data lake of 3 TB from SQL and NoSQL databases in AWS using APIs and Python
-* Developed ETL pipelines using Redshift, SQS, Lambda, Batch, EMR, Athena, Glue, and S3 to transform TBs of data
-* Set up CI/CD pipelines and automated code quality checks using GitHub actions to increase code quality by 80%
-* Built pipelines to ingest, process and upload 2 TB of health, modern bioinformatic and drug data into AWS S3 using API calls and Python
+* Built a health, drug and bioinformatic data lake of 100 TB from APIs, SQL and NoSQL databases in AWS using Python
+* Created ETL pipelines using Redshift, SQS, Lambda, Batch, EMR, PySpark, Athena, Glue, and S3 to transform TBs of data
+* Set up CI/CD pipelines and automated code quality checks using GitHub actions to increase code quality by 90%
 
 Technologies : Python, API, AWS: S3, EMR, Athena, Glue, Redshift, Lambda, Batch, PySpark, Shell Scripting, Packages: Pandas, Requests, Multiprocess, Pytest, Git, GitHub
   """

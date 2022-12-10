@@ -22,7 +22,7 @@ superuser: true
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Data Scientist & Big Data Engineer with interests in Big Data, Data Science, Cloud Computing, Machine Learning, AI and DevOps.
+bio: Data Scientist & Data Engineer with interests in Big Data, Data Science, Cloud Computing, Machine Learning, and DevOps.
 
 # Should the user's education and interests be displayed?
 display_education: true
@@ -81,4 +81,4 @@ education:
 #- Visitors
 ---
 
-I am a Data Engineer with **6 years** of experience in Design, Architecture, Development, and Deployment of **Hadoop, Spark, Snowflake, AWS &  Big Data Technologies** with work experience in the **US**, **Middle East** and **India** in the **Healthcare** and **Pharmaceuticals** domains.
+I am a Data Engineer with **6 years** of experience in Design, Architecture, Development, and Deployment of **Python, AWS, Snowflake, Hadoop, Spark &  Big Data Technologies** with work experience in the **U.S**, **Middle East**, and **India**

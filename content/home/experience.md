@@ -27,12 +27,12 @@ date_format = "Jan 2006"
   date_end = "2022-12-16"
   description = """ 
   Highlights:
+* Developed health, drug, and bioinformatic Data Lake of 100 TB from SQL and NoSQL-based databases using SQL and AWS
+* Created web scrapers and crawlers to collect and parse data from CSVs, XMLs, Parquet, APIs, and FTP servers using Python
+* Built AWS ETL pipelines using Redshift, SQS, Lambda, Batch, EMR, EC2, PySpark, Athena, and Glue to transform TBs of data
+* Implemented CI/CD pipelines and automated code quality checks using GitHub actions to increase code quality by 90%
 
-* Built a health, drug and bioinformatic data lake of 100 TB from APIs, SQL and NoSQL databases in AWS using Python
-* Created ETL pipelines using Redshift, SQS, Lambda, Batch, EMR, PySpark, Athena, Glue, and S3 to transform TBs of data
-* Set up CI/CD pipelines and automated code quality checks using GitHub actions to increase code quality by 90%
-
-Technologies : Python, API, AWS: S3, EMR, Athena, Glue, Redshift, Lambda, Batch, PySpark, Shell Scripting, Packages: Pandas, Requests, Multiprocess, Pytest, Git, GitHub
+Technologies : Python, API, AWS: S3, EMR, Athena, Glue, Redshift, Lambda, Batch, PySpark, Shell Scripting, Git, GitHub, Packages: Pandas, Requests, BeautifulSoup, Multiprocess, Pytest
   """
 
 

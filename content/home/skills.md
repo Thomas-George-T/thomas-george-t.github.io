@@ -15,18 +15,6 @@ subtitle = "MY MAJOR EXPERTISE"
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-  icon = "apache"
-  icon_pack = "icon"
-  name = "Hadoop"
-  #\parcent = "90%"
-  
-[[feature]]
-  icon = "apachespark"
-  icon_pack = "icon"
-  name = "Spark"
-  #parcent = "80%"  
-
-[[feature]]
   icon = "amazonaws"
   icon_pack = "icon"
   name = "AWS"
@@ -43,35 +31,47 @@ subtitle = "MY MAJOR EXPERTISE"
   icon_pack = "icon"
   name = "Scala"
   #parcent = "70%"
-
-[[feature]]
-  icon = "r"
-  icon_pack = "icon"
-  name = "R"
-  #parcent = "95%" 
-    
+  
 [[feature]]
   icon = "database"
   icon_pack = "icon"
   name = "SQL"
   #parcent = "95%"
+
+[[feature]]
+  icon = "weather-snow"
+  icon_pack = "icon"
+  name = "Snowflake"
+  #parcent = "95%"
   
+[[feature]]
+  icon = "apachespark"
+  icon_pack = "icon"
+  name = "Spark"
+  #parcent = "80%"
+  
+[[feature]]
+  icon = "apache"
+  icon_pack = "icon"
+  name = "Hadoop"
+  #parcent = "90%"  
+
 [[feature]]
   icon = "tableau"
   icon_pack = "icon"
   name = "Tableau"
-  #parcent = "95%"  
+  #parcent = "95%"
+  
+[[feature]]
+  icon = "r"
+  icon_pack = "icon"
+  name = "R"
+  #parcent = "95%" 
 
 [[feature]]
   icon = "mysql"
   icon_pack = "icon"
   name = "MySQL"
-  #parcent = "95%"
-  
-[[feature]]
-  icon = "weather-snow"
-  icon_pack = "icon"
-  name = "Snowflake"
   #parcent = "95%" 
  
 [[feature]]

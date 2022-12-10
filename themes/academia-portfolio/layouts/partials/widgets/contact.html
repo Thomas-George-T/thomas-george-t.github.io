@@ -21,7 +21,8 @@
     {{ if not site.Params.email }}
     {{ errorf "Please set an email address for the contact form using the `email` parameter in `config.toml`. Otherwise, set `email_form = 0` to disable the contact form." }}
     {{ end }}
-    {{ $post_action = printf "action=\"https://formspree.io/%s\"" site.Params.email }}
+<!--{{ $post_action = printf "action=\"https://formspree.io/%s\"" site.Params.email }}-->
+	{{ $post_action = printf "action=\"https://formspree.io/f/maykrlzp\""}}
     {{end}}
 
     <div class="mb-3">
@@ -86,13 +87,6 @@
       </li>
 	  
 	  <li>
-        <i class="fa-li fab fa-twitter mt-2" aria-hidden="false"></i>
-        <span id="person-twitter" itemprop="twitter">
-          <a href="https://bit.ly/38LqEG9">Twitter</a>
-        </span>
-      </li>
-	  
-	  <li>
         <i class="fa-li fab fa-linkedin mt-2" aria-hidden="false"></i>
         <span id="person-linkedin" itemprop="linkedin">
           <a href="https://bit.ly/38JbT6R">Linkedin</a>
@@ -100,9 +94,23 @@
       </li>
 	  
 	  <li>
+        <i class="fa-li fas fa-file mt-2" aria-hidden="false"></i>
+        <span id="person-tableau" itemprop="tableau">
+          <a href="https://public.tableau.com/app/profile/thomas.george.thomas">Tableau</a>
+        </span>
+      </li>
+	  
+	  <li>
         <i class="fa-li fab fa-medium mt-2" aria-hidden="false"></i>
         <span id="person-medium" itemprop="medium">
           <a href="https://thomas-george-thomas.medium.com">Medium</a>
+        </span>
+      </li>
+	  
+	  <li>
+        <i class="fa-li fab fa-twitter mt-2" aria-hidden="false"></i>
+        <span id="person-twitter" itemprop="twitter">
+          <a href="https://bit.ly/38LqEG9">Twitter</a>
         </span>
       </li>
 	  

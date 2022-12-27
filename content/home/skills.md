@@ -47,7 +47,7 @@ subtitle = "MY MAJOR EXPERTISE"
 [[feature]]
   icon = "apachespark"
   icon_pack = "icon"
-  name = "Spark"
+  name = "Apache Spark"
   #parcent = "80%"
   
 [[feature]]

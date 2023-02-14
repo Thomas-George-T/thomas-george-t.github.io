@@ -27,10 +27,12 @@ date_format = "Jan 2006"
   date_end = "2022-12-16"
   description = """ 
   Highlights:
-* Developed health, drug, and bioinformatic Data Lake of 100 TB from SQL and NoSQL-based databases using SQL and AWS
-* Created web scrapers and crawlers to collect and parse data from CSVs, XMLs, Parquet, APIs, and FTP servers using Python
-* Built AWS ETL pipelines using Redshift, SQS, Lambda, Batch, EMR, EC2, PySpark, Athena, and Glue to transform TBs of data
-* Implemented CI/CD pipelines and automated code quality checks using GitHub actions to increase code quality by 90%
+* Built Extract, Transform and Load (ETL) pipelines on AWS using Redshift, SQS, Lambda, Batch, EMR, EC2, PySpark, Athena, Glue and Boto3 to transform up to 100 TBs of data
+* Developed health, drug, biochemical and bioinformatic Data Lake from multiple Relational (SQL) and NoSQL-based databases using SQL and AWS worth 100 TB
+* Created multithreaded web scrapers to crawl data from a variety of sources and file formats including CSVs, XMLs, Parquet, APIs, and FTP servers using Python to collect 5 GB data daily
+* Enabled test driven development with test automation (TDD) using pytest, pylint, and coverage metrics to increase code quality by 100%
+* Implemented Continuous Integration and Continuous Deployment (CI/CD) pipelines using GitHub actions to ship efficiently by 90%
+* Implemented Python packages like Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Folium, Requests, Beautiful Soup, ElementTree, LXML, and Multiprocess
 
 Technologies : Python, API, AWS: S3, EMR, Athena, Glue, Redshift, Lambda, Batch, PySpark, Shell Scripting, Git, GitHub, Packages: Pandas, Requests, BeautifulSoup, Multiprocess, Pytest
   """
@@ -46,12 +48,14 @@ Technologies : Python, API, AWS: S3, EMR, Athena, Glue, Redshift, Lambda, Batch,
   description = """ 
   Highlights:
 
-* Built data pipelines for 5 initiatives including providing Clinical Investigative Insights in AWS, and Hadoop
+* Built data pipelines for 5 initiatives including providing Clinical Investigative Insights in AWS, Hadoop and Apache Spark
 * Migrated 112 TB of data from the on-premises Hadoop cluster to AWS and Snowflake
-* Innovated and automated post-migration validation reports in Spark Scala bringing down costs by 90% for 2 projects
-* Innovated and reduced latency by 50% which lead to $7000 quarterly savings by refactoring Spark Scala ETL code
+* Innovated and automated post-migration validation reports in Spark Scala which lead to $7000 quarterly savings
+* Redesigned and refactored project architecture and Spark Scala ETL code bringing down costs by 90%
 * Implemented continuous integration and continuous deployment (CI/CD) pipelines for 4 projects using DevOps
-* Chaired release management and code migration for production/pre-production environments for 2 projects
+* Chaired release management and code migration for production/pre-production environments for 5 projects
+* Built Spark Scala and PySpark applications using Spark RDD, Data frame/Dataset, and Spark-SQL APIs and performance tuning Spark Jobs.
+* Extensive experience building scalable Extract, Transform, Load (ETL) data pipelines and performing large-scale data transformations on cloud and on-premises infrastructure.
 
 Technologies: Hadoop, Spark, Scala, Snowflake, AWS: RDS, S3, EMR, Athena, Hive, Impala, Unix, Shell scripting, Control M, Bamboo, Git, Bitbucket, Maven, Eclipse, Cloudera distribution
 
@@ -72,6 +76,9 @@ Highlights:
 * Implemented dataset transfer of 26 TB between Hadoop and MySQL RDBMS using Sqoop
 * Performed performance tuning in Spark, SQL, and Sqoop resulting in 60% response time reduction
 * Redesigned Data Lake to use Parquet, and Snappy compression to cut 30% storage and compute costs
+* Executed Agile DevOps to build, and maintain code quality, version control and continuous integration, and continuous deployment (CI/CD) using Maven, Git, Bitbucket, Atlassian Bamboo, Jira, confluence and GitHub Actions
+* Handled file formats like Parquet, XML, ORC, Avro, JSON, and CSV
+* Performed Partitioning, Bucketing, Join optimizations, and Compression in Hive
 
 Technologies: Hadoop, Sqoop, Hive, Impala, Shell scripting, MySQL, Spark, Scala, SonarQube, Flume, Unix, Git
 

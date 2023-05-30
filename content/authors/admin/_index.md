@@ -40,7 +40,7 @@ education:
   courses:
   - course: M.S. Data Analytics Engineering
     institution: Northeastern University
-    year: Expected Aug 2023
+    year: Expected Dec 2023
   - course: B.Tech in Computer Science and Engineering
     institution: Manipal Institute of Technology
     year: 2016

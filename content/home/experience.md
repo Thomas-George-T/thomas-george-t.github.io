@@ -19,6 +19,20 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Data Analyst"
+  company = "Northeastern University"
+  company_url = ""
+  location = "Massachusetts, United States of America"
+  date_start = "2023-02-11"
+  date_end = ""
+  description = """ 
+  Highlights:
+* Building Dashboard for 20 Smart Homes  across Colorado and Massachusetts showcasing uptime analysis, energy prediction, and KPIs on Plotly Dash and MariaDB
+
+Technologies : Python, Plotly Dash, MariaDB, MySQL
+  """
+
+[[experience]]
   title = "Data Engineer"
   company = "Montai Health"
   company_url = ""

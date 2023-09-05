@@ -7,7 +7,7 @@ authors:
 - admin
 # resume download button
 btn:
-- url : "files/Thomas_George_Thomas-Resume.pdf" 
+- url : "files/Thomas_George_Thomas_resume.pdf" 
   label : "View Resume"
 
 # Is this the primary user of the site?

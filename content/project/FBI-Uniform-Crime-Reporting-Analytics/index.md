@@ -1,6 +1,6 @@
 ---
 title: FBI Crime Reporting Analytics
-summary: Analyzed FBI uniform major crimes reporting in every US state and visualized on a Tableau dashboard. A data mining hackathon.
+summary: Data mining FBI uniform major crimes reported in every US state and visualized on a Tableau dashboard.
 tags:
 - Data Visualization
 - Machine Learning

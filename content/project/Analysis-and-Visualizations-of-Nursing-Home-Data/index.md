@@ -1,6 +1,6 @@
 ---
 title: Analysis and Visualizations of Nursing Home Data
-summary: Created data driven storyline using the Center for Medicare & Medicaid Services (CMS) nursing facility data to generate visuals that highlight the nursing home's resource limits using Flourish, Data Wrapper and Tableau hosted on Google sites. A Computation and Visualization Hackathon.
+summary: Computed and visualized a data driven story of the Center for Medicare & Medicaid Services (CMS) nursing facility data to generate visuals that highlight the nursing home's resource limits using Flourish, Data Wrapper and Tableau hosted on Google sites.
 tags:
 - Data Visualization
 - Data Wrapper

@@ -26,10 +26,10 @@ date_format = "Jan 2006"
   date_start = "2023-02-11"
   date_end = ""
   description = """ 
-  Highlights:
-* Building Dashboard for 20 Smart Homes  across Colorado and Massachusetts showcasing uptime analysis, energy prediction, and KPIs on Plotly Dash and MariaDB
 
-Technologies : Python, Plotly Dash, MariaDB, MySQL
+* Designed and implemented an analytics platform using a Kappa system architecture with MariaDB, Python, SQL, and Jupyter Notebook, achieving a 98% uptime for 20 smart homes in Colorado and Massachusetts.
+
+Technologies : Python, Plotly Dash, MariaDB, MySQL, Jupyter Notebook
   """
 
 [[experience]]
@@ -40,13 +40,14 @@ Technologies : Python, Plotly Dash, MariaDB, MySQL
   date_start = "2022-07-11"
   date_end = "2022-12-16"
   description = """ 
-  Highlights:
-* Built Extract, Transform and Load (ETL) pipelines on AWS using Redshift, SQS, Lambda, Batch, EMR, EC2, PySpark, Athena, Glue and Boto3 to transform up to 100 TBs of data
-* Developed health, drug, biochemical and bioinformatic Data Lake from multiple Relational (SQL) and NoSQL-based databases using SQL and AWS worth 100 TB
-* Created multithreaded web scrapers to crawl data from a variety of sources and file formats including CSVs, XMLs, Parquet, APIs, and FTP servers using Python to collect 5 GB data daily
-* Enabled test driven development with test automation (TDD) using pytest, pylint, and coverage metrics to increase code quality by 100%
-* Implemented Continuous Integration and Continuous Deployment (CI/CD) pipelines using GitHub actions to ship efficiently by 90%
-* Implemented Python packages like Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Folium, Requests, Beautiful Soup, ElementTree, LXML, and Multiprocess
+
+* Established a comprehensive health, drug, biochemical, and bioinformatic Data Lake, aggregating data from diverse Relational Database Management Systems (RDBMS), Graph, and NoSQL-based databases on AWS, accumulating 100 TB of high-quality data.
+* Developed Extract, Transform, and Load (ETL) pipelines on the AWS cloud, leveraging Redshift, SQS, Lambda, Batch, EMR, EC2, PySpark, Athena, Glue, and Boto3 to process a substantial 100 TB of data.
+* Created multithreaded web scrapers to extract data from a variety of sources and file formats, including CSV, JSON, XML, Parquet, ORC, Avro, API, and FTP servers using Python to collect 5 GB data daily
+* Orchestrated Continuous Improvement and automated test-driven development (TDD) workflows using GitHub actions, pytest, pylint, and py-coverage metrics, leading to an outstanding 100% enhancement in code quality.
+* Utilized Python packages such as Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Folium, Requests, Beautiful Soup, ElementTree, LXML, and Multiprocess for data analysis and processing.
+* Implemented a robust data pipeline framework, optimizing data processing and transformation workflows.
+
 
 Technologies : Python, API, AWS: S3, EMR, Athena, Glue, Redshift, Lambda, Batch, PySpark, Shell Scripting, Git, GitHub, Packages: Pandas, Requests, BeautifulSoup, Multiprocess, Pytest
   """
@@ -60,16 +61,13 @@ Technologies : Python, API, AWS: S3, EMR, Athena, Glue, Redshift, Lambda, Batch,
   date_start = "2018-06-04"
   date_end = "2021-08-19"
   description = """ 
-  Highlights:
 
-* Built data pipelines for 5 initiatives including providing Clinical Investigative Insights in AWS, Hadoop and Apache Spark
-* Migrated 112 TB of data from the on-premises Hadoop cluster to AWS and Snowflake
-* Innovated and automated post-migration validation reports in Spark Scala which lead to $7000 quarterly savings
-* Redesigned and refactored project architecture and Spark Scala ETL code bringing down costs by 90%
-* Implemented continuous integration and continuous deployment (CI/CD) pipelines for 4 projects using DevOps
-* Chaired release management and code migration for production/pre-production environments for 5 projects
-* Built Spark Scala and PySpark applications using Spark RDD, Data frame/Dataset, and Spark-SQL APIs and performance tuning Spark Jobs.
-* Extensive experience building scalable Extract, Transform, Load (ETL) data pipelines and performing large-scale data transformations on cloud and on-premises infrastructure.
+* Spearheaded the construction of scalable (Extract, Transform, Load) ETL/ELT data pipelines for 5 U.S. healthcare initiatives, enabling large-scale data transformations on cloud and on-premise data warehouses.
+* Successfully migrated 112 TB of data from on-premises Hadoop clusters to AWS Cloud and Snowflake, resulting in substantial cost savings.
+* Pioneered an automated data quality framework in Spark Scala, reducing data errors by 35% and leading to $7000 quarterly savings.
+* Executed Agile DevOps practices, ensuring code quality, version control, continuous integration, and continuous deployment (CI/CD) for 4 projects using tools such as Maven, Git, Bitbucket, Atlassian Bamboo, Jira, and Confluence.
+* Proficient in stakeholder interaction, business requirements gathering, data analysis, design document creation, release management, source control management, code migration, and code reviews.
+
 
 Technologies: Hadoop, Spark, Scala, Snowflake, AWS: RDS, S3, EMR, Athena, Hive, Impala, Unix, Shell scripting, Control M, Bamboo, Git, Bitbucket, Maven, Eclipse, Cloudera distribution
 
@@ -83,18 +81,17 @@ Technologies: Hadoop, Spark, Scala, Snowflake, AWS: RDS, S3, EMR, Athena, Hive, 
   date_start = "2016-06-01"
   date_end = "2018-05-31"
   description = """
-Highlights:
 
-* Shipped and delivered analytics dashboard which led to an increase in pharmaceutical sales by 12% annually
-* Developed pipelines to handle data of 1.5 TB/day from ingestion to reporting layer using Shell script, Hadoop & Spark
-* Implemented dataset transfer of 26 TB between Hadoop and MySQL RDBMS using Sqoop
-* Performed performance tuning in Spark, SQL, and Sqoop resulting in 60% response time reduction
+* Delivered an analytics product that contributed to a 12% annual increase in pharmaceutical finance sales.
+* Designed and implemented a highly efficient data pipeline capable of processing 1.5 TB of data daily, streamlining data processing and transformation.
+* Achieved seamless data transfer of 26 TB between Hadoop and MySQL RDBMS using Sqoop, improving data accessibility.
+* Implemented best practices and performance tuning in Apache Spark jobs, resulting in a remarkable 60% reduction in response times for Spark, SQL queries, and Sqoop processes.
 * Redesigned Data Lake to use Parquet, and Snappy compression to cut 30% storage and compute costs
-* Executed Agile DevOps to build, and maintain code quality, version control and continuous integration, and continuous deployment (CI/CD) using Maven, Git, Bitbucket, Atlassian Bamboo, Jira, confluence and GitHub Actions
-* Handled file formats like Parquet, XML, ORC, Avro, JSON, and CSV
 * Performed Partitioning, Bucketing, Join optimizations, and Compression in Hive
+* Applied advanced dimensional data modeling techniques, including Star schema, Kimball, and Inmon, resulting in a remarkable 20% improvement in data warehouse scalability.
+* Established robust data management, governance, and data quality standards, ensuring the reliability and accuracy of datasets for data warehousing and decision-making processes.
 
-Technologies: Hadoop, Sqoop, Hive, Impala, Shell scripting, MySQL, Spark, Scala, SonarQube, Flume, Unix, Git
+Technologies: Hadoop, Sqoop, Hive, Impala, Shell scripting, MySQL, Spark, Scala, SQL, SonarQube, Flume, Unix, Git
 
   """
 
@@ -107,7 +104,7 @@ Technologies: Hadoop, Sqoop, Hive, Impala, Shell scripting, MySQL, Spark, Scala,
   date_end = "2016-05-19"
   description = """Central Data Repository for MIT, Manipal: 
   
-  Delivered a web application with its main objectives to serve as a means of data entry, to collect the required data, to analyze the given data, and finally to generate reports dynamically according to the custom report format requirements of the user. The data was loaded from the databases using Sqoop and analyzed using a Hadoop cluster. The reports are generated after querying using Hive and displayed in the web application."""
+  * Delivered a web application with its main objectives to serve as a means of data entry, to collect the required data, to analyze the given data, and finally to generate reports dynamically according to the custom report format requirements of the user. The data was loaded from the databases using Sqoop and analyzed using a Hadoop cluster. The reports are generated after querying using Hive and displayed in the web application."""
   
 [[experience]]
   title = "Software Development Intern"
@@ -118,5 +115,5 @@ Technologies: Hadoop, Sqoop, Hive, Impala, Shell scripting, MySQL, Spark, Scala,
   date_end = "2015-07-30"
   description = """Project Management System: 
   
-  Developed a web application that enabled the interaction between different users of different departments and their respective projects while accessing their functions on a large scale."""  
+  * Developed a web application that enabled the interaction between different users of different departments and their respective projects while accessing their functions on a large scale."""  
 +++

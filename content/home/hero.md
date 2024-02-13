@@ -33,15 +33,15 @@ hero_media = "Profile_Picture.jpg"
 # Call to action links (optional).
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
-[btn_alt]
+[btn]
   #url = "/authors/admin"
   url = "#about"
   label = "Know more"
   
-[btn]
+[btn_alt]
   url = "#contact"
   label = "Contact me"  	
 +++
-## I am **Thomas George Thomas**
+## Hi! I am **Thomas George Thomas**
 
-A Data Engineer passionate about Data Science 📊. I like automating things, building pipelines, exploring scalability problems, improving efficiency and performance tuning. I'm a strong advocate for 📜 open source, ☁️ Cloud computing, 🚀 DevOps, 🆕 Innovation and Automation 🤖
+A Data Engineer passionate about AI and Machine Learning Operations. I love building scalable data pipelines, insightful dashboards, robust data warehouses, extentsible data models, and integration of Continuous Improvement with automated deployments for Machine Learning pipelines.

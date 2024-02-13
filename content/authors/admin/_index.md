@@ -22,26 +22,23 @@ superuser: true
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: Data Scientist & Data Engineer with interests in Big Data, Data Science, Cloud Computing, Machine Learning, and DevOps.
+bio: Data Scientist / Data Engineer with interests in AI/ML, Big Data, Data Science and Machine Learning Operations
 
 # Should the user's education and interests be displayed?
 display_education: true
 
 interests:
+- Machine Learning Operations
+- Artificial Intelligence
 - Big Data Analytics
 - Data Engineering
-- Data Science
-- Machine Learning
-- Cloud Computing
-- DevOps & CI/CD
-
 
 education:
   courses:
-  - course: M.S. Data Analytics Engineering
+  - course: M.S, Data Analytics Engineering
     institution: Northeastern University
-    year: Expected Dec 2023
-  - course: B.Tech in Computer Science and Engineering
+    year: 2023
+  - course: B.Tech, Computer Science and Engineering
     institution: Manipal Institute of Technology
     year: 2016
 
@@ -81,4 +78,6 @@ education:
 #- Visitors
 ---
 
-I am a Data Engineer with **6 years** of experience in Design, Architecture, Development, and Deployment of **Python, AWS, Snowflake, Hadoop, Spark &  Big Data Technologies** with work experience in the **U.S**, **Middle East**, and **India**
+With over **6 years** of experience in the Design, Architecture, and Deployment of **Data Engineering Solutions** and **Machine Learning Models**, I had the privilege to contribute towards Forbes 33, Fortune 500 and Amazon and Google Cloud Partners across the **U.S**, **Middle East**, and **India**
+
+Top skills: **Python, Amazon Web Services (AWS), SQL, Apache Airflow, Snowflake, Apache Spark** and **A/B testing**.

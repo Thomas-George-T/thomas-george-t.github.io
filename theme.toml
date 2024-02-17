@@ -1,10 +1,10 @@
-name = "Hugo Profile"
+name = "hugo-profile"
 license = "MIT"
 licenselink = "https://github.com/gurusabarish/hugo-profile/blob/master/LICENSE"
 description = "A high performance and mobile first hugo template for personal portfolio and blog."
 homepage = "https://github.com/gurusabarish/hugo-profile"
 demosite = "https://hugo-profile.netlify.app"
-tags = ["Responsive","Blog", "Portfolio", "Personal"]
+tags = ["Responsive","Blog", "Portfolio", "Personal", "Data Engineer"]
 min_version = "0.68.0"
 
 [author]

@@ -28,6 +28,8 @@ Welcome to my Portfolio/Personal website created using **Hugo Academia Theme**.
 
 # Useful References
 
+- [Update Hugo Version](https://notesontech.com/hugo-update/)
+
 ## Hugo Theme Page Docs
 - [Hugo Academia Theme](https://themes.gohugo.io/academia-hugo/)
 - [Page Builder documentation](https://wowchemy.com/docs/page-builder/)

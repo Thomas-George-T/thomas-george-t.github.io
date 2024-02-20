@@ -1,0 +1,688 @@
+baseURL: "https://thomas-george-t.github.io/"
+languageCode: "en-us"
+title: "Portfolio of Thomas George Thomas"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+Paginate: 3
+enableRobotsTXT: true
+# disqusShortname: your-disqus-shortname
+googleAnalytics: G-T4WRN35KG7
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Menus:
+#   main:
+#     - identifier: resume
+#       name: Resume
+#       title: Resume
+#       url: /files/Thomas_George_Thomas_resume.pdf
+#       weight: 1
+#     - identifier: gallery
+#       name: Gallery
+#       title: Blog posts
+#       url: /gallery
+#       weight: 2
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Hugo Profile"
+  description: Portfolio of Thomas George Thomas, Senior Data Engineer and Machine Learning Engineer.   
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "images/icon.png" # Find and change
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+  
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # color:
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+  #   primaryColor:
+  #   secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Thomas George Thomas" # Brand name for the brand | default is the title variable
+    disableSearch: true
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Thomas,"
+    subtitle: "I build data pipelines"
+    content: "A Data Engineer passionate about Artificial Intelligence and Machine Learning Operations. I love building scalable data warehouses, extentsible data models, insightful dashboards, and orchrestrating Machine Learning pipelines."
+    image: images/profile.JPG
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: true
+      name: "Resume"
+      url: "/files/Thomas_George_Thomas_resume.pdf"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/Thomas-George-T
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/thomasgeorgethomas/
+        - icon: fas fa-t
+          url: https://public.tableau.com/app/profile/thomas.george.thomas/vizzes   
+        - icon: fab fa-medium
+          url: https://medium.com/@thomas-george-thomas
+      # customIcons:
+      #   - icon: /fav.png
+      #     url: "https://example.com"
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    # image: ""
+    content: |-
+      I am a seasoned engineer with over 6 years of experience in the Design, and Deployment of Analytical Solutions and Machine Learning Models.
+      
+      I had the privilege to work with Forbes 33, Fortune 500 organizations and contribute towards Amazon and Google Cloud Partners across the U.S, Middle East, and India
+    skills:
+      enable: true
+      title: "Here are a few technologies I've been working with recently:"
+      items:
+        - "Python"
+        - "SQL"
+        - "Scala"
+        - "Bash Shell Scripting"
+        - "MLOps"
+        - "Apache Spark/PySpark"
+        - "Extract Transform Load (ETL)"
+        - "Airflow"
+        - "Snowflake"
+        - "Amazon Web Services (AWS)"
+        - "Google Cloud Platform (GCP)"
+        - "Streamlit"
+        - "Vertex AI"
+        - "dbt"
+        - "Tableau"
+        - "Looker"
+        - "Redshift"
+        - "BigQuery"
+        - "Microsoft SQL Server"
+        - "PostgreSQL"
+        - "MariaDB"
+        - "MySQL"
+        - "DynamoDB"
+        - "MongoDB"
+        - "Neo4j"
+        - "Hadoop"
+        # - "Condas"
+        - "Kafka"
+        - "Unix"
+        - "DevOps"
+        - "Docker"
+        - "CI/CD"
+        - "Agile"
+        - "Maven"
+        - "GitOps"
+        - "GitHub Actions"
+        - "Atlassian Bamboo"
+        # - "Confluence"
+        - "Bitbucket"
+        - "Jira"
+        - "Jupyter Notebooks"
+        - "MLFlow"
+        - "Flask"
+        - "API"
+        - "DVC"
+        - "A/B Testing"
+        - "Big Data"
+        - "Data Warehousing"
+        - "Data Modeling"
+        - "Statistics"
+
+
+
+
+  # Experience
+  experience:
+    enable: true
+    # title: "Custom Name"
+    items:
+
+      - job: "Data Engineer/Data Analyst"
+        company: "Northeastern University"
+        # companyUrl: "https://example.com"
+        date: "Feb 2023 - Sep 2023"
+        # featuredLink:
+        #   enable: true
+        #   name: "View the project"
+        #   url: "https://example.com"
+        content: |-
+          - Engineered high-availability data streaming analytics platform, ensuring a **98%** real-time uptime for **20** smart homes using Python
+          - Built an energy dashboard visualizing Key Performance Indicators (**KPIs**) and metrics using **SQL**, **MariaDB**, and **Jupyter Notebooks**
+          - Applied SQL query optimization and software engineering best practices, leading to a **60%** reduction in **SQL** query response times
+          - Performed in-depth Exploratory Data Analysis (**EDA**) to unveil patterns and trends to support data-driven decision-making processes
+
+      - job: "Data Engineer"
+        company: "MontAI"
+        # companyUrl: "https://example.com"
+        date: "Jul 2022 - Dec 2022"
+        featuredLink:
+          enable: true
+          name: "I am on the Banner"
+          url: "https://montai.com"
+        content: |- 
+          - Established collected, cleaned, and aggregated health, food, drug, biotech, and bioinformatics Data Lake on **AWS** of **100** TB of data
+          - Developed ETL (**Extract, Transform, Load**) pipelines using **AWS** Glue, Redshift, S3, PySpark, Lambda, and SQS to process **100** TB
+          - Implemented **Test Automation** by test-driven development (TDD) **GitHub actions workflows**, improving existing code quality by **100%**
+          - Performed data integration of **5** GB/day from disparate data sources, **APIs**, and file formats (**XML, CSV, JSON, Parquet, Avro, ORC**)
+          - Translated business objectives and Key Results (**OKRs**) into technical specifications, design documentation, and optimal solutions
+          - Engineered **Python**-based web scrapers to collect, integrate, and parse **10** GB from **APIs**, boosting data collection efficiency.
+
+
+      - job: "Senior Big Data Engineer"
+        company: "Legato"
+        # companyUrl: "https://example.com"
+        date: "Jun 2018 - Aug 2021"
+        # featuredLink:
+        #   enable: true
+        #   url: "https://example.com"
+        # info:
+        #   enable: true
+        #   content: I worked as a software developer for more than one year in Amazon.
+        content: |
+          - Constructed and led scalable **ETL/ELT** data pipelines for **5 US healthcare** initiatives across Anthem and Blue Cross Blue Shield
+          - Optimized large-scale data transformations in **AWS** Cloud using EMR, EC2, Athena, CloudWatch, Step Functions, cutting costs by **30%**
+          - Automated data quality framework in Spark Scala for **Hive** and **SQL Server**, cutting errors, resulting in **$7000** quarterly cost savings
+          - Built extensible data architecture with **10** Snowflake data marts and data models, improving Business Intelligence (**BI**) metrics by **20%**
+          - Mentored and led a team of **4** new graduates in a training program focused on Big Data and DevOps tools (**Jira, Bitbucket, Bamboo**)
+          - Orchestrated code migration, continuous integration, and continuous deployment (**CI/CD**), reducing deployment time by **25%**
+          - Unified **Agile** Scrum with unit testing, system integration testing, and code reviews, slashing post-deployment defects by **18%**
+          - Enabled the migration of **112** TB of data from on-premises distributed computing **Hadoop** clusters to **AWS** Cloud and **Snowflake**
+          - Performed massive parallel processing (MPP) and large-scale data transformations on cloud and on-premises data warehouses
+          - Built large-scale applications and data structures for data ingestion from **Neo4j, MongoDB** (Graph, NoSQL OLTP) databases in **Airflow**
+          - Integrated **2 ML** pipelines with Continuous Improvement/Learning and automated deployments using **Apache Airflow** and **Docker**
+
+      - job: "Software Engineer - Hadoop Developer & Big Data Engineer"
+        company: "Middle East Management Consultancy"
+        # companyUrl: "https://example.com"
+        date: "Jun 2016 - May 2018"
+        # info:
+        #   enable: false
+        # featuredLink:
+        #   enable: true
+        #   url: "https://example.com"
+        content: |
+          - Created high-volume robust data infrastructure on distributed computing on-premises Hadoop clusters capable of handling **15** TB
+          - Designed interactive **Tableau** Dashboards to derive meaningful insights, leading to a **12%** increase in pharmaceutical finance sales
+          - Developed **10** end-to-end high-volume, multi-layer data processing pipelines from ingestion layers to the serving and reporting layers
+          - Ingested **26** TB from Relational databases (**MySQL, Oracle, PostgreSQL**) RDBMS via **Sqoop** and **Shell scripts**, enhancing data access
+          - Improved enterprise data warehouse (**EDW**) scalability using facts and dimensions data modeling (**Star Schema, SCD**) by **20%**
+          - Established **DataOps** for version control with git, data cleaning, data management, governance, and data lineage tracking for datasets
+          - Maintained integrity and compliance with clean data sets for **4** projects, contributing to a **15%** improvement in accuracy and reliability
+          - Collaborated with cross-functional teams, managed stakeholders, and gathered requirements for streamlined project communication
+          - Implemented join optimization, data partitioning, and performance tuning, achieving a **40%** improvement in **Apache Spark** jobs
+          - Redesigned Data Lake to use Parquet and Snappy compression to cut **30%** storage and compute costs
+          - Performed Partitioning, Bucketing, Join optimizations, and Compression in Hive
+
+      - job: "Practice School Student/Researcher"
+        company: "Manipal Institute of Technology"
+        # companyUrl: "https://example.com"
+        date: "Jan 2016 - May 2016"
+        # featuredLink:
+        #   enable: true
+        #   url: "https://example.com"
+        content: |
+          - Developed a Central Data Repository for MIT, Manipal. 
+          - It is a web application with its main objectives to serve as a means of data entry, to collect the required data, to analyze the given data, and finally to 
+          generate reports dynamically according to the custom report format requirements of the user. 
+          - The data was loaded from the databases using **Sqoop** and analyzed using a **Hadoop** cluster. 
+          - The reports are generated after querying using **Hive** and displayed in the web application.
+
+      - job: "Software Development Intern"
+        company: "CGI"
+        # companyUrl: "https://example.com"
+        date: "May 2015 - Jul 2015"
+        content: "Developed a Project Management web application that enabled the interaction between different users of different departments and their respective projects while accessing their functions on a large scale."
+
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Master of Science in Data Analytics Engineering"
+        school:
+          name: "Northeastern University, Boston"
+          url: "https://www.northeastern.edu"
+        date: "2021 - 2023"
+        GPA: "3.9 out of 4.0"
+        # content: |-
+        #   Extracurricular Activities
+        #     - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        #     - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+      - title: "Bachelor of Technology in Computer Science and Engineering"
+        school:
+          name: "Manipal Institute of Technology, Manipal"
+          url: "https://www.manipal.edu/mu.html"
+        date: "2012 - 2016"
+        # GPA: "3.9 out of 5.0"
+        # content: |-
+        #   I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
+        #   - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
+        #   - Face mask detection using a single convolutional neural network.
+
+        #   Extracurricular Activities
+        #     - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        #     - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+        # featuredLink:
+        #   enable: true
+        #   name: "My academic record"
+        #   url: "https://example.com"
+
+
+  # Achievements
+  achievements:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Anthem IMPACT Go Above
+        content: Award for Innovation for automating and streamlining the CI/CD process at Legato Health Technologies, Mar 2021
+        url: https://www.linkedin.com/posts/thomasgeorgethomas_impact-legato-happy-activity-6777437854479077376-whfX/
+        # image: /images/achievment.jpg
+      - title: IBM Data Science Professional
+        content: Earned for completing IBM Data Science Certification, Aug 2020
+        url: https://www.credly.com/badges/ba99a0c0-a0a0-4138-92be-4aa3fcad02b3/public_url
+        # image: /images/achievment.jpg
+      - title: Arctic Code Vault Contributor
+        content: Award for open source contributions towards the GitHub archive program buried deep in the Artic, Jul 2020
+        url: https://github.com/Thomas-George-T
+      - title: Annual Team Innovation 
+        content: Annual Innovation award for the enhancements and innovation brought about from 2019 to 2020 at Legato Health Technologies, Mar 2020
+        # url: "https://github.com/gurusabarish/hugo-profile"
+        # image: /images/achievment.jpg
+      - title: Iron Man of Technology
+        content: Award for being a stand-out performer and contributor under the Enterprise Data Analytics Tower at Legato Health Technologies, Jan 2020
+        url: https://www.linkedin.com/posts/thomasgeorgethomas_happy-appreciated-lifeatlegato-activity-6629390693422989312-tm4D/
+
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+
+      - title: E-commerce Customer Segmentation
+        content: Developed and Deployed real-time Clustering machine learning models and algorithms for E-commerce customers on GCP using Python, Vertex AI, GCS, Flask, Airflow, Docker, MLflow and TensorFlow
+        image: /images/e-commerce.jpeg
+        # featured:
+        #   name: Demo
+        #   link: https://hugo-profile.netlify.app
+        badges:
+          - "Machine Learning"
+          - "MLOps"
+          - "Python"
+        links:
+          # - icon: fa fa-envelope                                                                                                                                                                                                       
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/Thomas-George-T/Ecommerce-Data-MLOps
+
+
+
+      - title: YouTube Dashboard
+        content: Real-Time analytics dashboard generated on any input YouTube video with a Demo. Pictures sentiment analysis and 5 KPIs that can be used to drive up ad-revenue.
+        image: /images/projects/youtube.jpg
+        featured:
+          name: Demo
+          link: https://thomas-george-t-youtube-dashboard-app.streamlit.app
+        badges:
+          - "Streamlit"
+          - "Python"
+          - "API"
+        links:
+          - icon: fa fa-envelope                                                                                                                                                                                           
+            url: mailto:?subject=YouTube%20Streamlit%20Dashboard&body=Check%20it%20out:https://thomas-george-t-youtube-dashboard-app.streamlit.app
+          - icon: fab fa-github
+            url: https://github.com/Thomas-George-T/Streamlit-YouTube-Dashboard
+          - icon: fab fa-twitter
+            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https://thomas-george-t-youtube-dashboard-app.streamlit.app
+
+
+
+      - title: Age of Plastic
+        content: Data-driven dashboards showing the impact of global plastic pollution on the environment; Land, Ocean and the mitigation steps taken by different countries using Tableau.
+        image: /images/projects/plastic.jpg
+        featured:
+          name: Tableau
+          link: https://public.tableau.com/app/profile/thomas.george.thomas/viz/ImpactofPlasticsonOceans/ConsolidatedStory
+        badges:
+          - "Tableau"
+          - "SQL"
+          - "Data Visualization"
+        links:
+        - icon: fab fa-twitter
+          url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https://public.tableau.com/app/profile/thomas.george.thomas/viz/ImpactofPlasticsonOceans/ConsolidatedStory
+
+
+
+      - title: Appliance Energy Prediction
+        content:  Predicted the energy consumed by appliances using custom-coded Machine Learning models and Algorithms like PCA, Neural Networks, Lasso, Ridge, and Linear Regression from scratch in Python with 80% confidence.
+        image: /images/projects/appliance.jpg
+        featured:
+          name: Report
+          link: https://github.com/Thomas-George-T/Appliance-Energy-Prediction/blob/main/Applicances%20Energy%20Prediction%20Report.pdf
+        badges:
+          - "Machine Learning"
+          - "Python"
+        links:
+          # - icon: fa fa-envelope                                                                                                                                                                                                     
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/Thomas-George-T/Appliance-Energy-Prediction         
+
+
+       
+      - title: Clustering Paris and London
+        content: Visualizing Geo spatial analysis to cluster similar neighborhoods using ArcGIS and Folium to reveal new insights using Machine Learning
+        image: /images/paris.jpg
+        # featured:
+        #   name: Demo
+        #   link: https://hugo-profile.netlify.app
+        badges:
+          - "Machine Learning"
+          - "Python"
+          - "ArcGIS"
+          - "API"
+        links:
+        - icon: fab fa-github
+          url: https://github.com/Thomas-George-T/A-Tale-of-Two-Cities
+        - icon: fab fa-twitter
+          url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https://github.com/Thomas-George-T/A-Tale-of-Two-Cities
+
+
+
+      - title: FBI Crime Reports
+        content: Forecasted and visualized FBI reported uniform major crimes with focus on Aggravated Assault, Homicides, Intimidation and Motor theft in every US state visualized on a Tableau dashboard and Machine Learning with 90% Accuracy
+        image: /images/projects/fbi.jpg
+        featured:
+          name: Tableau
+          link: https://public.tableau.com/app/profile/thomas.george.thomas/viz/Outliers_dashboard/Dashboard
+        badges:
+          - "Machine Learning"
+          - "Tableau"
+          - "Data Visualization"
+        links:
+          # - icon: fa fa-envelope                                                                                                                                                                                                     
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/Thomas-George-T/FBI-Uniform-Crime-Reporting-Analytics 
+
+
+
+      - title: Kafka Tweet Stream
+        content: Streamed & ingested real-time Tweets of current affairs between high-performance tuned Kafka 2.0.0 producer & consumer into Elasticsearch using safe, idempotent, and compression configurations
+        image: /images/projects/kafka.jpg
+        # featured:
+        #   name: Demo
+        #   link: https://hugo-profile.netlify.app
+        badges:
+          - "API"
+          - "Kafka"
+          - "Elasticsearch"
+        links:
+          # - icon: fa fa-envelope                                                                                                                                                                                               
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/Thomas-George-T/Kafka-Tweet-Stream
+
+
+
+      - title: Movie Analytics
+        content: Analyzed a million movies using Spark Scala to draw useful insights on viewer engagement
+        image: /images/projects/movies.jpg
+        # featured:
+        #   name: Demo
+        #   link: https://hugo-profile.netlify.app
+        badges:
+          - "Data Engineering"
+          - "SQL"
+          - "Scala"
+        links:
+          # - icon: fa fa-envelope                                                                                                                                                                                                     
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/Thomas-George-T/Movies-Analytics-in-Spark-and-Scala
+          - icon: fab fa-twitter
+            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https://github.com/Thomas-George-T/Movies-Analytics-in-Spark-and-Scala  
+
+
+    
+      - title: Diabetic Readmission Exploration
+        content: Exploring and drawing meaningful insights for patients readmitted with Diabetes with a Report
+        image: /images/projects/diabetic.jpg
+        badges:
+          - "Data Engineering"
+          - "Data Analysis"
+          - "Python"
+        links:
+          # - icon: fa fa-envelope                                                                                                                                                                                                     
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/Thomas-George-T/Diabetic-Readmission-Exploration
+
+
+
+      - title: Analysis And Visualizations Of Nursing Home Data
+        content: Computed and visualized a data driven story of the Center for Medicare & Medicaid Services (CMS) nursing facility data to generate visuals that highlight the nursing home’s resource limits using Flourish, Data Wrapper and Tableau hosted on Google sites.
+        image: /images/projects/nursing.jpg
+        featured:
+          name: Demo
+          link: https://sites.google.com/view/analyzing-nursing-home-data/home
+        badges:
+          - "Data Visualization"
+          - "Data Analysis"
+          - "Tableau"    
+
+
+
+      - title: Investigating GDP Expenditure
+        content: Visualized the expenditure trends in various sectors like Education, Pharmaceuticals, Military, Infrastructure, Research and Development by different countries for the years 1960 - 2020 using Flourish, Data wrapper hosted on Google Sites
+        image: /images/projects/gdp.jpg
+        featured:
+          name: Demo
+          link: https://sites.google.com/view/investigating-gdp-expenditure/home
+        badges:
+          - "Data Visualization"
+          - "Data Analysis"
+
+
+      
+      - title: Forecasting Healthcare costs
+        content: Predicted the cost of healthcare and insurance using Python and Linear Regression Machine Learning model with 80% accuracy
+        image: /images/treatment-costs-ml.jpg
+        badges:
+          - "Machine Learning"
+          - "Regression"
+          - "Python"
+        links:
+          # - icon: fa fa-envelope                                                                                                                                                                                                     
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/Thomas-George-T/Forecasting-Healthcare-Costs
+
+
+
+      - title: Predicting hits on Spotify
+        content: Analyzed over 40000 songs of 6 different decades to predict hit songs on Spotify using various classification Machine learning models and Python.
+        image: /images/projects/spotify.jpg
+        badges:
+          - "Machine Learning"
+          - "Classification"
+          - "Python"
+        links:
+          # - icon: fa fa-envelope                                                                                                                                                                                                     
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/Thomas-George-T/Prediciting-Hits-on-Spotify
+
+
+
+      - title: Olympic History Analytics
+        content: Discovering & visualizing various trends in 120 years of Olympic history using R
+        image: /images/projects/olympic.jpg
+        badges:
+          - "Data Analysis"
+          - "Data Visualization"
+          - "R"
+        links:
+          # - icon: fa fa-envelope                                                                                                                                                                                                     
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/Thomas-George-T/Olympic-History-Analytics-in-R
+
+
+
+      - title: Social Media Analysis
+        content: Taking a look at data of 1.6 million twitter users and drawing useful insights while exploring interesting patterns. The techniques used include text mining, sentimental analysis, probability, time series analysis and Hierarchical clustering on text/words using R
+        image: /images/projects/social.jpg
+        badges:
+          - "Data Analysis"
+          - "Data Visualization"
+          - "R"
+        links:
+          # - icon: fa fa-envelope                                                                                                                                                                                                     
+          #   url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/Thomas-George-T/Social-Media-Analytics-in-R
+
+
+
+  #Contact
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    email: thomasgeorgethomases@gmail.com
+    btnName: Mail me
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 6
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/Thomas-George-T
+      linkedin: https://www.linkedin.com/in/thomasgeorgethomas/
+      # twitter: https://twitter.com
+      # instagram: https://instagram.com
+      # facebook: https://facebook.coms
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>

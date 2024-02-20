@@ -28,10 +28,12 @@ Welcome to my Portfolio/Personal website created using **Hugo Academia Theme**.
 
 # Useful References
 
+- [Update Hugo Version](https://notesontech.com/hugo-update/)
+- [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+- [Modify a submodule hugo theme](https://aaronnotes.com/2020/11/how-to-change-the-theme-of-a-hugo-blog/)
+
 ## Hugo Theme Page Docs
-- [Hugo Academia Theme](https://themes.gohugo.io/academia-hugo/)
-- [Page Builder documentation](https://wowchemy.com/docs/page-builder/)
-- [Adding custom icons to Skills](https://www.rollagain.net/post/adding-custom-icons-to-the-hugo-academic-theme/)
+- [Hugo Profile Theme](https://github.com/gurusabarish/hugo-profile)
 - [Image Portfolio from Unsplash](https://unsplash.com)
 - [Add Logos](https://simpleicons.org/?q=table)
 

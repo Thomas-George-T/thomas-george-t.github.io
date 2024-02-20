@@ -30,6 +30,7 @@ Welcome to my Portfolio/Personal website created using **Hugo Academia Theme**.
 
 - [Update Hugo Version](https://notesontech.com/hugo-update/)
 - [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+- [Modify a submodule hugo theme](https://aaronnotes.com/2020/11/how-to-change-the-theme-of-a-hugo-blog/)
 
 ## Hugo Theme Page Docs
 - [Hugo Profile Theme](https://github.com/gurusabarish/hugo-profile)

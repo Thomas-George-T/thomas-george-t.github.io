@@ -3,7 +3,8 @@ name: Hugo CI
 on:
   push:
     branches:
-      - master  # Set a branch to deploy
+      # - master  # Set a branch to deploy
+      - overhaul
 
 jobs:
   deploy:
@@ -23,8 +24,8 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+      # - name: Deploy
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./public

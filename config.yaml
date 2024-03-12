@@ -54,9 +54,9 @@ markup:
 
 params:
   title: "Hugo Profile"
-  description: Portfolio of Thomas George Thomas, Senior Data Engineer and Machine Learning Engineer.   
+  description: Senior Data Engineer and Machine Learning Engineer.   
   # staticPath: ""  # The path to serve the static files from
-  favicon: "images/icon.png" # Find and change
+  favicon: "images/icon.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -124,9 +124,9 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Thomas,"
-    subtitle: "I build data pipelines"
-    content: "A Data Engineer passionate about Artificial Intelligence and Machine Learning Operations. I love building scalable data warehouses, extentsible data models, insightful dashboards, and orchrestrating Machine Learning pipelines."
+    title: "Thomas."
+    subtitle: "I tackle data problems spanning organizations"
+    content: "A Data Engineer passionate about Artificial Intelligence and Machine Learning. I love building scalable data warehouses, extentsible data models, insightful dashboards, and orchrestrating Machine Learning pipelines."
     image: images/profile.JPG
     bottomImage:
       enable: true

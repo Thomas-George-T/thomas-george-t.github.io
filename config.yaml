@@ -125,7 +125,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Thomas."
-    subtitle: "I tackle data problems spanning organizations"
+    subtitle: "I provide enterprise data solutions"
     content: "A Data Engineer passionate about Artificial Intelligence and Machine Learning. I love building scalable data warehouses, extentsible data models, insightful dashboards, and orchrestrating Machine Learning pipelines."
     image: images/profile.JPG
     bottomImage:

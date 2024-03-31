@@ -16,7 +16,7 @@
 
 # Portfolio/Personal Web: [thomasgeorgethomas.com](https://thomasgeorgethomas.com)
 
-Welcome to my Portfolio/Personal website created using **Hugo Academia Theme**.
+Welcome to my Portfolio/Personal website created using **Hugo Profile Theme**.
 
 ## Environment
 - Hugo-extended 

@@ -224,7 +224,7 @@ params:
     # title: "Custom Name"
     items:
 
-      - job: "Data Engineer/Data Analyst"
+      - job: "Data Engineer | Data Analyst"
         company: "Northeastern University"
         # companyUrl: "https://example.com"
         date: "Feb 2023 - Sep 2023"
@@ -238,7 +238,7 @@ params:
           - Applied SQL query optimization and software engineering best practices, leading to a **60%** reduction in **SQL** query response times
           - Performed in-depth Exploratory Data Analysis (**EDA**) to unveil patterns and trends to support data-driven decision-making processes
 
-      - job: "Data Engineer"
+      - job: "Data Engineer | Data Platform Engineer"
         company: "MontAI"
         # companyUrl: "https://example.com"
         date: "Jul 2022 - Dec 2022"

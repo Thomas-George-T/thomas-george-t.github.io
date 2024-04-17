@@ -300,7 +300,7 @@ params:
           - Redesigned Data Lake to use Parquet and Snappy compression to cut **30%** storage and compute costs
           - Performed Partitioning, Bucketing, Join optimizations, and Compression in Hive
 
-      - job: "Practice School Student/Researcher"
+      - job: "Practice School Student | Researcher"
         company: "Manipal Institute of Technology"
         # companyUrl: "https://example.com"
         date: "Jan 2016 - May 2016"

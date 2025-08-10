@@ -126,7 +126,7 @@ params:
     intro: "Hi, my name is"
     title: "Thomas."
     subtitle: "I provide enterprise data solutions"
-    content: "A Data Engineer passionate about Artificial Intelligence and Machine Learning. I love building scalable data warehouses, extentsible data models, insightful dashboards, and orchrestrating Machine Learning pipelines."
+    content: "A Data Engineer passionate about Artificial Intelligence and Machine Learning Operations. I love building scalable and robust data architectures, data warehouses, extentsible data models, insightful dashboards, and orchrestrating Machine Learning pipelines."
     # image: images/profile.JPG
     bottomImage:
       enable: true
@@ -134,7 +134,7 @@ params:
     button:
       enable: false
       name: "Resume"
-      url: "/files/Thomas_George_Thomas_resume.pdf"
+      url: 
       download: true
       newPage: false
     socialLinks:
@@ -157,17 +157,20 @@ params:
     title: "About Me"
     # image: ""
     content: |-
-      I am a seasoned engineer with over 8 years of experience in the Design, and Deployment of Data Engineering, Analytical Solutions and Machine Learning Models across the U.S, Middle East, and India
+      I am a seasoned engineer with over 8 years of experience in the Design, and Deployment of Data Engineering, Analytical Solutions and Machine Learning Models across the U.S, Middle East, and India.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Here are a few technologies I've been working with:"
       items:
         - "Python"
         - "SQL"
         - "Amazon Web Services (AWS)"
         - "dbt"
         - "Dagster"
+        - "Docker"
         - "MLOps"
+        - "GitHub Actions"
+        - "CI/CD"
         - "Scala"
         - "Bash Shell Scripting"
         - "Apache Spark/PySpark"
@@ -188,12 +191,9 @@ params:
         - "Kafka"
         - "Unix"
         - "DevOps"
-        - "Docker"
-        - "CI/CD"
         - "Agile"
         - "Maven"
         - "GitOps"
-        - "GitHub Actions"
         - "Atlassian Bamboo"
         - "Bitbucket"
         - "Jira"

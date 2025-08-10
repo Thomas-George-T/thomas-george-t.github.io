@@ -135,7 +135,7 @@ params:
       enable: false
       name: "Resume"
       url: 
-      download: true
+      download: false
       newPage: false
     socialLinks:
       fontAwesomeIcons:

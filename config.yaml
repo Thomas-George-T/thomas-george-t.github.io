@@ -125,8 +125,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Thomas."
-    subtitle: "I architect enterprise data solutions"
-    content: "A Data Engineer passionate about Artificial Intelligence and Machine Learning Operations. I love building scalable and robust data architectures, data warehouses, extentsible data models, insightful dashboards, and orchrestrating Machine Learning pipelines."
+    subtitle: "I build resilient, scalable enterprise data platforms"
+    content: "Data Engineer specializing in AI and MLOps—building scalable data platforms, extensible warehouses, and end‑to‑end ML pipelines that ship value."
     # image: images/profile.JPG
     bottomImage:
       enable: true
